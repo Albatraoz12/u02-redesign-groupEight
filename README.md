@@ -36,3 +36,5 @@ text here
 ## update readme 2 asdasd
 
 ## update readme 3 :)
+
+testa med fetch 
