@@ -551,9 +551,6 @@ footer .left-right-wrapper .footer-left .left-text {
 }
 
 footer .left-right-wrapper .footer-right {
-  -ms-flex-item-align: right;
-      -ms-grid-row-align: right;
-      align-self: right;
   overflow-wrap: break-word;
   max-width: 35%;
 }
