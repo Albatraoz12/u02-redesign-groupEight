@@ -3,5 +3,5 @@
 ## Redesign project
 
 
-## Juliett är här ^^)
+## Juliett is here ^^)
 
