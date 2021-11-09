@@ -3,5 +3,30 @@
 ## Redesign project
 
 
-## Juliett är här ^^)
-New text here
+## Juliett is here ^^)
+
+hejhej
+
+## Nallewashere
+
+dimos
+
+## Add by niclas
+
+
+## Add by Dimosthenis
+
+
+
+
+
+filip
+## Filips update
+
+## Add by niclas
+main
+ main
+
+
+## Add by Juliett
+text here
