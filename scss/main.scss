@@ -1,6 +1,16 @@
-@import '/scss/abstracts/variables';
-
-h1{
-  font-family: $font;
+* {
+  // background-color: red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat','Poppins', sans-serif;
+  // font-family: 'Poppins', sans-serif;
 }
 
+@import './abstracts/variables';
+
+@import './abstracts/mixins.scss';
+@import './layout/nav';
+@import './layout/header';
+
+@import './layout/responsive';

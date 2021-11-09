@@ -1,0 +1,31 @@
+header {
+
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+    .header-left {
+        height: 60px;
+        .desktop-logo {
+            
+            height: 60px;
+        }
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .desktop-header-input{
+            height: 28px;
+            width: 12rem;
+            border-radius: 10px;
+        }
+
+        .header-desktop-flags {
+            cursor: pointer;
+        }
+    }
+}
