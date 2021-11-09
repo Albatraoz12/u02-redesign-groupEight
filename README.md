@@ -2,6 +2,9 @@
 
 ## Redesign project
 
+
+## Juliett is here ^^)
+
 hejhej
 
 ## Nallewashere
@@ -26,3 +29,4 @@ main
 
 
 ## Add by Juliett
+text here
