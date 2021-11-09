@@ -285,6 +285,11 @@ header .header-right .header-desktop-flags {
     display: none;
     color: #fff;
     list-style: none;
+    /*                     .sub-menu-desktop2-item {
+                        &__link {
+
+                        } 
+                    } */
   }
   nav .menu-desktop .menu-desktop-item .menu-item__input2:checked ~ .sub-menu-desktop2 {
     padding: 1rem;
@@ -319,6 +324,11 @@ header .header-right .header-desktop-flags {
     display: none;
     color: #fff;
     list-style: none;
+    /*                     .sub-menu-desktop2-item {
+                        &__link {
+
+                        }
+                    } */
   }
   nav .menu-desktop .menu-desktop-item .menu-item__input3:checked ~ .sub-menu-desktop3 {
     padding: 1rem;
@@ -353,6 +363,11 @@ header .header-right .header-desktop-flags {
     display: none;
     color: #fff;
     list-style: none;
+    /*                     .sub-menu-desktop2-item {
+                        &__link {
+
+                        }
+                    } */
   }
   nav .menu-desktop .menu-desktop-item .menu-item__input4:checked ~ .sub-menu-desktop4 {
     padding: 1rem;
@@ -387,6 +402,11 @@ header .header-right .header-desktop-flags {
     display: none;
     color: #fff;
     list-style: none;
+    /*                     .sub-menu-desktop5-item {
+                        &__link {
+
+                        }
+                    } */
   }
   nav .menu-desktop .menu-desktop-item .menu-item__input5:checked ~ .sub-menu-desktop5 {
     padding: 1rem;
@@ -421,6 +441,11 @@ header .header-right .header-desktop-flags {
     display: none;
     color: #fff;
     list-style: none;
+    /*                     .sub-menu-desktop6-item {
+                        &__link {
+
+                        }
+                    } */
   }
   nav .menu-desktop .menu-desktop-item .menu-item__input6:checked ~ .sub-menu-desktop6 {
     padding: 1rem;
@@ -485,5 +510,68 @@ header .header-right .header-desktop-flags {
   nav .menu-desktop .menu-desktop-item .menu-item__input7:checked ~ .sub-menu-desktop7 .sub-menu-desktop7-item__link:hover {
     border-bottom: 2px solid #000;
   }
+  /* footer {
+        font-size: 1.5rem;
+    }*/
+}
+
+footer {
+  background-color: #1A2F34;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  color: #C4C4C4;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.8rem;
+}
+
+footer .left-right-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .left-right-wrapper .footer-left {
+  -ms-grid-column-align: left;
+      justify-self: left;
+  max-width: 40%;
+}
+
+footer .left-right-wrapper .footer-left .left-text {
+  margin-bottom: 0.9rem;
+}
+
+footer .left-right-wrapper .footer-right {
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  overflow-wrap: break-word;
+  max-width: 35%;
+}
+
+footer .left-right-wrapper .footer-right .footer-right-text {
+  margin-bottom: 1.5rem;
+}
+
+footer .footer-bottom {
+  width: 100%;
+  text-align: center;
+}
+
+footer .footer-bottom .social-icons {
+  margin-bottom: 0.5rem;
+}
+
+footer .footer-bottom .social-icons .socialIcon {
+  margin-left: 0.9rem;
 }
 /*# sourceMappingURL=main.css.map */
