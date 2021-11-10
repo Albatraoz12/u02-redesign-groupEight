@@ -23,7 +23,7 @@
     padding-bottom: $height;
     padding-left: $width;
     padding-right: $width;
-    border-radius: 8px;
+    border-radius: 50%;
     background-color: $yellow;
     color: $black;
     font-weight: 600;
@@ -31,11 +31,11 @@
 }
 
 //Media queries
-@mixin media-md {
-    @media screen and (min-width: 768px) {
-        @content;
-    }
-}
+// @mixin media-md {
+//     @media screen and (min-width: 768px) {
+//         @content;
+//     }
+// }
 @mixin media-lg {
     @media screen and (min-width: 1024px) {
         @content;
@@ -43,8 +43,8 @@
 }
 
 //Behövs kanske inte anpassas
-@mixin media-xl {
-    @media screen and (min-width: 1600px) {
-        @content;
-    }
-}
+// @mixin media-xl {
+//     @media screen and (min-width: 1600px) {
+//         @content;
+//     }
+// }
