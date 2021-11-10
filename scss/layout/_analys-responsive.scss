@@ -1,0 +1,24 @@
+@include media-lg {
+    .analys-body {
+
+        .analys-main {
+
+            .analys-text-wrapper1, .analys-text-wrapper2 {
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                .analys-title {
+                    font-size: 48px;
+        
+                }
+
+                .analys-button1, .analys-button2 {
+                    // position: relative;
+                    
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    
+}
