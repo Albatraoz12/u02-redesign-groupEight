@@ -1,1 +1,9 @@
 // Home
+
+.home-main {
+    width: 100vw;
+    .button {
+        // color: yellow;
+        @include button(40px, 10px);
+    }
+}

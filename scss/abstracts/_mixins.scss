@@ -15,6 +15,20 @@
     flex-direction: column;
     background-color: #EBF0EE;
 }
+//
+@mixin button($width, $height) {
+    // color: #000;
+    text-decoration: none;
+    padding-top: $height;
+    padding-bottom: $height;
+    padding-left: $width;
+    padding-right: $width;
+    border-radius: 8px;
+    background-color: $yellow;
+    color: $black;
+    font-weight: 600;
+    font-size: 14px;
+}
 
 //Media queries
 @mixin media-md {
@@ -27,6 +41,8 @@
         @content;
     }
 }
+
+//Behövs kanske inte anpassas
 @mixin media-xl {
     @media screen and (min-width: 1600px) {
         @content;
