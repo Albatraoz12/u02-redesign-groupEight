@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Goolge Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Om oss</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href=""
+          ><img
+            class="desktop-logo"
+            src="./images/logo-desktop.png"
+            alt="Konstnärsmändens logo"
+        /></a>
+      </div>
+      <div class="header-right">
+        <img
+          class="header-desktop-flags"
+          src="./images/sweden.png"
+          alt="Swedish flag"
+        />
+        <img
+          class="header-desktop-flags"
+          src="./images/uk.png"
+          alt="uk flag"
+        />
+        <input class="desktop-header-input" type="text" />
+        <a href="#"
+          ><img class="search" src="./images/search.png" alt=""
+        /></a>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href=""
+        ><img class="logo" src="./images/logo.png" alt=""
+      /></a>
+
+      <!----------------------------------MOBILE MENU----------------------------------------->
+      <div class="hamburger">
+        <input class="hamburger__checkbox" type="checkbox" />
+        <span class="hamburger__lines"></span>
+        <ul class="menu">
+          <li class="menu__item">
+            <input class="menu-item__input" type="text" /><a
+              class="menu-item__button"
+              href="#"
+              ><img class="search" src="./images/search.png" alt=""
+            /></a>
+          </li>
+          <li class="menu__item">
+            Om oss <input class="menu-item__input1" type="checkbox" />
+            <span class="menu-item__arrow"></span>
+
+            <ul id="om-oss" class="sub-menu">
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Tillbaka</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Budgetunderlag</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Förordningar</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Organisation</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Verksamhet</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Regeringsbrev</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Personal</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Internationellt</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Remissvar</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Styrelse & grupper</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Jämställdhet</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Redovisningar</a>
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#"
+                  >Tillgänglighetsredogörelse</a
+                >
+              </li>
+              <li class="sub-menu-item">
+                <a class="sub-menu-item__link" href="#">Lediga tjänster</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu__item">Stipendier & bidrag</li>
+          <li class="menu__item">Konstnärsguiden</li>
+          <li class="menu__item">Kalendarium</li>
+          <li class="menu__item">Publikationer</li>
+          <li class="menu__item">Våra samarbeten</li>
+          <li class="menu__item">Nyheter</li>
+          <li class="menu__item">Kontakt</li>
+          <li class="menu__item">
+            <img src="./images/sweden.png" alt="Swedish flag" />
+            <img src="./images/uk.png" alt="Brittish flag" />
+          </li>
+        </ul>
+      </div>
+      <!----------------------------------MOBILE MENU END----------------------------------------->
+
+      <!-- --------------------------------DESKTOP MENU---------------------------------------- -->
+      <ul class="menu-desktop">
+        <li class="menu-desktop-item">
+          <a href="#"> Om oss </a
+          ><input class="menu-item__input1" type="checkbox" />
+          <span class="menu-item__arrow"></span>
+
+          <ul class="sub-menu-desktop">
+            <!-- <li class="sub-menu-item"><a class="sub-menu-item__link" href="http://">Våra uppdrag</a></li> -->
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Budgetunderlag</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Förordningar</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Organisation</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Verksamhet</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Regeringsbrev</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Personal</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#"
+                >Internationellt</a
+              >
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Remissvar</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#"
+                >Styrelse & grupper</a
+              >
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Jämställdhet</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#">Redovisningar</a>
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#"
+                >Tillgänglighetsredogörelse</a
+              >
+            </li>
+            <li class="sub-menu-desktop-item">
+              <a class="sub-menu-desktop-item__link" href="#"
+                >Lediga tjänster</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="menu-desktop-item">
+          <a href="">Stipendier & bidrag</a>
+          <input class="menu-item__input2" type="checkbox" />
+          <ul class="sub-menu-desktop2">
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Bild & form</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Dans & cirkus</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Film</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Musik</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Teater</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Ansökningstider</a
+              >
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Ansökan/ blanketter</a
+              >
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Redovisning</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Utdelade stipendier</a
+              >
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#">Jäv</a>
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Andra bidragsgivare</a
+              >
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Femåriga arbetsstipendier</a
+              >
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Långtidsstipendier</a
+              >
+            </li>
+            <li class="sub-menu-desktop2-item">
+              <a class="sub-menu-desktop2-item__link" href="#"
+                >Statlig inkomstgaranti</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="">Konstnärsguiden</a>
+          <input class="menu-item__input3" type="checkbox" />
+          <ul class="sub-menu-desktop3">
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#"
+                >Olika typer av inkomster</a
+              >
+            </li>
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#">Företagande</a>
+            </li>
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#">Pension</a>
+            </li>
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#"
+                >Socialförsäkring, ersättning- och bidragssystem</a
+              >
+            </li>
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#"
+                >Skatt & deklaration</a
+              >
+            </li>
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#"
+                >Arbeta & bo utomlands</a
+              >
+            </li>
+            <li class="sub-menu-desktop3-item">
+              <a class="sub-menu-desktop3-item__link" href="#"
+                >Studielån & skulder</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="">Kalendarium</a>
+          <input class="menu-item__input4" type="checkbox" />
+          <ul class="sub-menu-desktop4">
+            <li class="sub-menu-desktop4-item">
+              <a class="sub-menu-desktop4-item__link" href="#"
+                >Tidigare händelser</a
+              >
+            </li>
+            <li class="sub-menu-desktop4-item">
+              <a class="sub-menu-desktop4-item__link" href="#"
+                >Sök i kalendariet</a
+              >
+            </li>
+            <li class="sub-menu-desktop4-item">
+              <a class="sub-menu-desktop4-item__link" href="#"
+                >ansökningstider</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="">Pubilkationer</a>
+          <input class="menu-item__input5" type="checkbox" />
+          <ul class="sub-menu-desktop5">
+            <li class="sub-menu-desktop5-item">
+              <a class="sub-menu-desktop5-item__link" href="#"
+                >Beställ publikationer, utredningar och årsredovisningar</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="">Våra samarbeten</a>
+          <input class="menu-item__input6" type="checkbox" />
+          <ul class="sub-menu-desktop6">
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#"
+                >Konstnärsguiden</a
+              >
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#">IASPIS</a>
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#"
+                >Konstnärsnämnden</a
+              >
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#"
+                >Konstnärsnämndens internationella program för dans</a
+              >
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#"
+                >Konstnärsnämndens internationella program för musik</a
+              >
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#">Kulturbryggan</a>
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#"
+                >Motverka hot och hat - en vägledning</a
+              >
+            </li>
+            <li class="sub-menu-desktop6-item">
+              <a class="sub-menu-desktop6-item__link" href="#"
+                >Per Ganneviks stiftelse för kulturella ändamål</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="">Nyheter</a>
+          <input class="menu-item__input7" type="checkbox" />
+          <ul class="sub-menu-desktop7">
+            <li class="sub-menu-desktop7-item">
+              <a class="sub-menu-desktop7-item__link" href="#"
+                >Pressmeddelanden</a
+              >
+            </li>
+            <li class="sub-menu-desktop7-item">
+              <a class="sub-menu-desktop7-item__link" href="#"
+                >Sociala medier</a
+              >
+            </li>
+            <li class="sub-menu-desktop7-item">
+              <a class="sub-menu-desktop7-item__link" href="#">Nyhetsbrev</a>
+            </li>
+            <li class="sub-menu-desktop7-item">
+              <a class="sub-menu-desktop7-item__link" href="#">Prenumerera</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-desktop-item"><a href="#">Kontakt</a></li>
+      </ul>
+      <!-- --------------------------------DESKTOP MENU END---------------------------------------- -->
+      <ul class="sub-menu">
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Tillbaka</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Budgetunderlag</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Förordningar</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Organisation</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Verksamhet</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Regeringsbrev</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Personal</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Internationellt</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Remissvar</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Styrelse & grupper</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Jämställdhet</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Redovisningar</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Tillgänglighetsredogörelse</a>
+        </li>
+        <li class="sub-menu-item">
+          <a class="sub-menu-item__link" href="#">Lediga tjänster</a>
+        </li>
+      </ul>
+    </nav>
+
+    <footer>
+      <div class="left-right-wrapper">
+        <div class="footer-left">
+          <p class="adress left-text">
+            Adress: <br />
+            Konstnärsnämden Maria Skolgata 83, 2tr, 118 53 Stockholm
+          </p>
+          <p class="phone left-text">
+            Telefon: <br />
+            08- 506 550 00
+          </p>
+          <p class="email left-text">
+            E-post: <br />
+            info@konstnarsnamnden.se
+          </p>
+        </div>
+        <div class="footer-right">
+          <p class="footer-right-text">Logotyper</p>
+          <p class="footer-right-text">Hantering av personuppgifter</p>
+          <p class="footer-right-text">Om webbplatsen</p>
+          <p class="footer-right-text">Redovisningar</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="social-icons">
+          <img
+            src="./images/facebook-icon.png"
+            alt="besök konstnarsnamndens facebook"
+            class="socialIcon"
+          /><img
+            src="./images/youtube-icon.png"
+            alt="besök konstnarsnamndens youtube-sida"
+            class="socialIcon"
+          /><img
+            src="./images/vimeo-icon.png"
+            alt="besök konstnarsnamndens vimeo"
+            class="socialIcon"
+          /><img
+            src="./images/linkedin-icon.png"
+            alt="besök konstnarsnamndens linkedin"
+            class="socialIcon"
+          />
+        </div>
+        <p class="copyright">© Copyright 2021 groupEight</p>
+      </div>
+    </footer>
+  </body>
+</html>
