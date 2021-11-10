@@ -282,11 +282,16 @@ footer .footer-bottom .social-icons .socialIcon {
   padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  border-radius: 8px;
+  border-radius: 50%;
   background-color: #FBD59E;
   color: #000000;
   font-weight: 600;
   font-size: 14px;
+}
+
+body {
+  position: relative;
+  padding-bottom: 300px;
 }
 
 @media screen and (min-width: 1024px) {
