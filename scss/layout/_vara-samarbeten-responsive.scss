@@ -1,0 +1,30 @@
+
+@include media-lg{
+
+.samarbeten-body {
+  position: relative;
+  padding-bottom:300px;
+  // height: 100vh;
+
+  .samarbeten-wrapper{
+    gap: 30px;
+
+    .samarbeten-heading{
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .coop-image{
+      height: 60px;
+      width: 500px;
+    }
+    .coop-image-stora{
+      width: 306px;
+      width: 520px;
+    }
+    .samarbeten-breadcrumb{
+      margin: 20px 0 0 20px;
+    }
+  }
+}
+
+}
