@@ -438,6 +438,101 @@ footer .footer-bottom .social-icons .socialIcon {
   background-color: rgba(0, 0, 0, 0.589);
 }
 
+.government-body {
+  position: relative;
+  padding-bottom: 300px;
+}
+
+.government-body .government-breadcrumbs {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 80px 40px 0 40px;
+}
+
+.government-body .government-breadcrumbs > * {
+  text-decoration: none;
+  color: #000000;
+}
+
+.government-body .government-breadcrumbs a:hover {
+  color: #FBD59E;
+}
+
+.government-body .government-wrapper {
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.government-body .government-wrapper h1, .government-body .government-wrapper h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.government-body .government-wrapper h1 {
+  font-size: 38px;
+}
+
+.government-body .government-wrapper a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.government-body .government-wrapper a:hover {
+  color: #FBD59E;
+}
+
+.government-body .government-wrapper .button {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50%;
+  background-color: #FBD59E;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 15px;
+  display: block;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.government-body .government-wrapper .button:hover {
+  color: #1A2F34;
+  background-color: bisque;
+}
+
+.government-body .government-wrapper .government-text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.government-body .government-wrapper .government-text-wrapper p {
+  margin: 20px 0px;
+  width: 100%;
+  font-size: 18px;
+  max-width: 850px;
+}
+
 @media screen and (min-width: 1024px) {
   header {
     display: -webkit-box;
