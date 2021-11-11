@@ -290,11 +290,47 @@ footer .footer-bottom .social-icons .socialIcon {
 }
 
 .about-body {
-  padding-top: 2rem;
+  position: relative;
+  padding-bottom: 300px;
 }
 
-.about-body .about-main .about-international {
-  display: inline-block;
+.about-main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-breadcrumb {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  font-size: 12px;
+}
+
+.about-breadcrumb a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.about-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  font-size: 14px;
+  padding-top: 10%;
+}
+
+.about-icon-wrapper .about-international,
+.about-icon-wrapper .about-government,
+.about-icon-wrapper .about-equality,
+.about-icon-wrapper .about-analysis,
+.about-icon-wrapper .about-economics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,10 +341,60 @@ footer .footer-bottom .social-icons .socialIcon {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
 }
 
+.about-icon-wrapper .about-international img,
+.about-icon-wrapper .about-government img,
+.about-icon-wrapper .about-equality img,
+.about-icon-wrapper .about-analysis img,
+.about-icon-wrapper .about-economics img {
+  padding-left: 30%;
+  height: 44px;
+}
+
+.about-icon-wrapper .about-international #about-eco-pic,
+.about-icon-wrapper .about-government #about-eco-pic,
+.about-icon-wrapper .about-equality #about-eco-pic,
+.about-icon-wrapper .about-analysis #about-eco-pic,
+.about-icon-wrapper .about-economics #about-eco-pic {
+  padding-left: 35%;
+}
+
+.about-icon-wrapper .about-international a,
+.about-icon-wrapper .about-government a,
+.about-icon-wrapper .about-equality a,
+.about-icon-wrapper .about-analysis a,
+.about-icon-wrapper .about-economics a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*
+  .about-equality img {
+    padding-left: 25%;
+  }
+
+  .about-analysis img {
+    padding-left: 30%;
+  }
+
+  .about-economics img {
+    padding-left: 25%;
+  }
+}
+
+/*.about-international {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    }
+*/
 /*@include media-md {
     
 }*/
