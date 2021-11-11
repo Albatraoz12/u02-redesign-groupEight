@@ -1,0 +1,93 @@
+.economics-body{
+
+    position: relative;
+    padding-bottom: 300px;
+
+    .economics-wrapper {
+        
+        padding: 20px 40px;
+
+        .economics-breadcrumbs{
+
+            font-weight: 600;
+            font-size: 12px;
+
+            & > *{
+                text-decoration: none;
+                color: $black;
+                
+            }
+
+            & a:hover {
+                color: $yellow;
+            }
+        }
+
+        h1, h2 {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        p {
+            margin: 20px 0px;
+            max-width: 700px;
+        }
+
+        .economics-text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        .button {
+            // color: yellow;
+            @include button(40px, 10px);
+            text-align: center;
+            border-radius: 15px;
+            display: block;
+            width: 300px;
+            margin: 50px auto;
+
+        }
+        
+        .uppdrag-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            background-size: cover;;
+            background-position: center;
+
+            p {
+                color: $white;
+                z-index: 2;
+            }
+
+
+            &::after {
+                content: "";
+                width: 100%;
+                height:100%;
+                position: absolute;
+                top: 0;
+                left: 0; 
+                background-color: rgba(0, 0, 0, 0.589);
+            }
+        }
+
+
+    }
+}
