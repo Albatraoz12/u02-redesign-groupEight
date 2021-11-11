@@ -219,7 +219,7 @@ footer {
   background-color: #1A2F34;
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   color: #C4C4C4;
   padding: 1rem;
   -webkit-box-sizing: border-box;
@@ -294,7 +294,7 @@ footer .footer-bottom .social-icons .socialIcon {
   padding-bottom: 300px;
 }
 
-.analys-body .analys-main .analys-text-wrapper1 {
+.analys-body .analys-main .analys-text-wrapper1, .analys-body .analys-main .analys-text-wrapper2 {
   width: 90%;
   margin: 0 auto;
   padding: 2rem 1rem;
@@ -307,31 +307,114 @@ footer .footer-bottom .social-icons .socialIcon {
           flex-direction: column;
 }
 
-.analys-body .analys-main .analys-text-wrapper1 .analys-breadcrumb {
+.analys-body .analys-main .analys-text-wrapper1 .analys-breadcrumb, .analys-body .analys-main .analys-text-wrapper2 .analys-breadcrumb {
   margin-bottom: 3rem;
   font-size: 12px;
 }
 
-.analys-body .analys-main .analys-text-wrapper1 .analys-breadcrumb a {
+.analys-body .analys-main .analys-text-wrapper1 .analys-breadcrumb a, .analys-body .analys-main .analys-text-wrapper2 .analys-breadcrumb a {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
   font-size: 12px;
 }
 
-.analys-body .analys-main .analys-text-wrapper2 {
-  width: 90%;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.analys-body .analys-main .analys-text-wrapper1 .analys-title, .analys-body .analys-main .analys-text-wrapper2 .analys-title {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
 }
 
+.analys-body .analys-main .analys-text-wrapper1 .analys-sub-title1, .analys-body .analys-main .analys-text-wrapper1 .analys-sub-title2, .analys-body .analys-main .analys-text-wrapper2 .analys-sub-title1, .analys-body .analys-main .analys-text-wrapper2 .analys-sub-title2 {
+  margin: 2rem 0;
+}
+
+.analys-body .analys-main .analys-text-wrapper1 .analys-paragraph, .analys-body .analys-main .analys-text-wrapper2 .analys-paragraph {
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 5%;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+
+.analys-body .analys-main .analys-text-wrapper1 .analys-paragraph-3 {
+  margin-top: 2rem;
+}
+
+.analys-body .analys-main .analys-text-wrapper1 .analys-button1 {
+  background-color: #FBD59E;
+  padding: 0.9rem 4rem;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.analys-body .analys-main .analys-seperator {
+  height: 50px;
+  width: 100%;
+  background-color: #1A2F34;
+  margin-bottom: 1rem;
+}
+
+.analys-body .analys-main .analys-text-wrapper2 .analys-button2 {
+  background-color: #FBD59E;
+  padding: 0.9rem 2rem;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+/* .analys-body {
+    position: relative;
+    padding-bottom: 300px;
+    font-family: $font;
+    
+    .analys-main {
+
+
+
+        .analys-text-wrapper1 {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2em 1rem;
+            display: flex;
+            flex-direction: column;
+
+            .analys-breadcrumb {
+                margin-bottom: 3rem;
+                font-size: 12px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+            }
+
+            .analys-title {
+                margin-bottom: 3rem;
+                font-weight: bold;
+                text-align: center;
+                font-size: 28px;
+            }
+        }
+
+        .analys-text-wrapper2 {
+            // box-sizing: border-box;
+            width: 90%;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+    }
+} */
 @media screen and (min-width: 1024px) {
   header {
     display: -webkit-box;
@@ -630,5 +713,28 @@ footer .footer-bottom .social-icons .socialIcon {
   /* footer {
         font-size: 1.5rem;
     }*/
+}
+
+@media screen and (min-width: 1024px) {
+  .analys-body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .analys-body .analys-main .analys-text-wrapper1, .analys-body .analys-main .analys-text-wrapper2 {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .analys-body .analys-main .analys-text-wrapper1 .analys-title, .analys-body .analys-main .analys-text-wrapper2 .analys-title {
+    font-size: 48px;
+  }
+  .analys-body .analys-main .analys-text-wrapper1 .analys-button1, .analys-body .analys-main .analys-text-wrapper1 .analys-button2, .analys-body .analys-main .analys-text-wrapper2 .analys-button1, .analys-body .analys-main .analys-text-wrapper2 .analys-button2 {
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
