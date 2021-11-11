@@ -628,7 +628,10 @@ footer .footer-bottom .social-icons .socialIcon {
     padding-bottom: 300px;
   }
   .samarbeten-body .samarbeten-wrapper {
+    height: 100vh;
     gap: 30px;
+    margin: 0 auto;
+    width: 70%;
   }
   .samarbeten-body .samarbeten-wrapper .samarbeten-heading {
     font-size: 48px;
@@ -644,6 +647,12 @@ footer .footer-bottom .social-icons .socialIcon {
   }
   .samarbeten-body .samarbeten-wrapper .samarbeten-breadcrumb {
     margin: 20px 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .samarbeten-body .samarbeten-wrapper {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
