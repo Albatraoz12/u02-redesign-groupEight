@@ -332,7 +332,7 @@ footer .footer-bottom .social-icons .socialIcon {
 
 .analys-body .analys-main .analys-text-wrapper1 .analys-paragraph, .analys-body .analys-main .analys-text-wrapper2 .analys-paragraph {
   font-family: "Montserrat", Sans-serif;
-  letter-spacing: 5%;
+  letter-spacing: 1px;
   line-height: 1.8;
   font-size: 18px;
   padding-bottom: 2rem;
@@ -369,52 +369,6 @@ footer .footer-bottom .social-icons .socialIcon {
   margin: 0 auto;
 }
 
-/* .analys-body {
-    position: relative;
-    padding-bottom: 300px;
-    font-family: $font;
-    
-    .analys-main {
-
-
-
-        .analys-text-wrapper1 {
-            width: 90%;
-            margin: 0 auto;
-            padding: 2em 1rem;
-            display: flex;
-            flex-direction: column;
-
-            .analys-breadcrumb {
-                margin-bottom: 3rem;
-                font-size: 12px;
-                a {
-                    text-decoration: none;
-                    color: $black;
-                    font-weight: 600;
-                    font-size: 12px;
-                }
-            }
-
-            .analys-title {
-                margin-bottom: 3rem;
-                font-weight: bold;
-                text-align: center;
-                font-size: 28px;
-            }
-        }
-
-        .analys-text-wrapper2 {
-            // box-sizing: border-box;
-            width: 90%;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-            display: flex;
-            flex-direction: column;
-            overflow-x: hidden;
-        }
-    }
-} */
 @media screen and (min-width: 1024px) {
   header {
     display: -webkit-box;

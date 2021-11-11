@@ -3,7 +3,6 @@
     padding-bottom: 300px;
 
     .analys-main {
-        // width: 100vw;
         
         .analys-text-wrapper1, .analys-text-wrapper2 {
             width: 90%;
@@ -32,18 +31,15 @@
 
             .analys-sub-title1, .analys-sub-title2 {
                 margin: 2rem 0;
-                // font-family: $font;
-                
             }
 
             .analys-paragraph {
                 font-family: $font;
-                letter-spacing: 5%;
+                letter-spacing: 1px;
                 line-height: 1.8;
                 font-size: 18px;
                 padding-bottom: 2rem;
             }
-
         }
 
         .analys-text-wrapper1 {
@@ -85,51 +81,3 @@
     }
     
 }
-
-
-/* .analys-body {
-    position: relative;
-    padding-bottom: 300px;
-    font-family: $font;
-    
-    .analys-main {
-
-
-
-        .analys-text-wrapper1 {
-            width: 90%;
-            margin: 0 auto;
-            padding: 2em 1rem;
-            display: flex;
-            flex-direction: column;
-
-            .analys-breadcrumb {
-                margin-bottom: 3rem;
-                font-size: 12px;
-                a {
-                    text-decoration: none;
-                    color: $black;
-                    font-weight: 600;
-                    font-size: 12px;
-                }
-            }
-
-            .analys-title {
-                margin-bottom: 3rem;
-                font-weight: bold;
-                text-align: center;
-                font-size: 28px;
-            }
-        }
-
-        .analys-text-wrapper2 {
-            // box-sizing: border-box;
-            width: 90%;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-            display: flex;
-            flex-direction: column;
-            overflow-x: hidden;
-        }
-    }
-} */
