@@ -289,10 +289,11 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 14px;
 }
 
-.analys-body {
+.analys-body .samarbeten-body {
   position: relative;
   padding-bottom: 300px;
 }
+
 
 .analys-body .analys-main {
   width: 100vw;
@@ -305,6 +306,17 @@ footer .footer-bottom .social-icons .socialIcon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.samarbeten-body .samarbeten-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -371,6 +383,18 @@ footer .footer-bottom .social-icons .socialIcon {
   font-weight: 600;
   border-radius: 30px;
   margin: 0 auto;
+  gap: 20px;
+}
+
+.samarbeten-body .samarbeten-wrapper .samarbeten-heading {
+  font-size: 28px;
+}
+
+.samarbeten-body .samarbeten-wrapper .samarbeten-breadcrumb {
+  margin: 10px 0 0 10px;
+  font-size: 12px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 @media screen and (min-width: 1024px) {
@@ -689,6 +713,37 @@ footer .footer-bottom .social-icons .socialIcon {
   }
   .analys-body .analys-main .analys-text-wrapper1 .analys-button1, .analys-body .analys-main .analys-text-wrapper1 .analys-button2, .analys-body .analys-main .analys-text-wrapper2 .analys-button1, .analys-body .analys-main .analys-text-wrapper2 .analys-button2 {
     margin: 0 auto;
+  }
+  .samarbeten-body {
+    position: relative;
+    padding-bottom: 300px;
+  }
+  .samarbeten-body .samarbeten-wrapper {
+    height: 100vh;
+    gap: 30px;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .samarbeten-body .samarbeten-wrapper .samarbeten-heading {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .samarbeten-body .samarbeten-wrapper .coop-image {
+    height: 60px;
+    width: 500px;
+  }
+  .samarbeten-body .samarbeten-wrapper .coop-image-stora {
+    width: 306px;
+    width: 520px;
+  }
+  .samarbeten-body .samarbeten-wrapper .samarbeten-breadcrumb {
+    margin: 20px 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .samarbeten-body .samarbeten-wrapper {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
