@@ -11,9 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Om oss</title>
+    <title>Konstnärsnämnden</title>
   </head>
-  <body>
+
+  <body class="kontakt-body">
     <header>
       <div class="header-left">
         <a href=""
@@ -36,14 +37,14 @@
         />
         <input class="desktop-header-input" type="text" />
         <a href="#"
-          ><img class="search" src="./images/search.png" alt=""
+          ><img class="search" src="./scss/dist/images/search.png" alt=""
         /></a>
       </div>
     </header>
-
+    
     <nav class="nav">
       <a href=""
-        ><img class="logo" src="./images/logo.png" alt=""
+        ><img class="logo" src="./scss/dist/images/logo.png" alt=""
       /></a>
 
       <!----------------------------------MOBILE MENU----------------------------------------->
@@ -55,7 +56,7 @@
             <input class="menu-item__input" type="text" /><a
               class="menu-item__button"
               href="#"
-              ><img class="search" src="./images/search.png" alt=""
+              ><img class="search" src="./scss/dist/images/search.png" alt=""
             /></a>
           </li>
           <li class="menu__item">
@@ -118,8 +119,8 @@
           <li class="menu__item">Nyheter</li>
           <li class="menu__item">Kontakt</li>
           <li class="menu__item">
-            <img src="./images/sweden.png" alt="Swedish flag" />
-            <img src="./images/uk.png" alt="Brittish flag" />
+            <img src="./scss/dist/images/sweden.png" alt="Swedish flag" />
+            <img src="./scss/dist/images/uk.png" alt="Brittish flag" />
           </li>
         </ul>
       </div>
@@ -428,6 +429,59 @@
       </ul>
     </nav>
 
+    <main class="kontakt__main">
+        <p class="breadcrumb">
+            <a href="index.html" title="Goes to Home">Startsida </a>&gt; Kontakt
+        </p>
+
+      <article class="main__article">
+        <h1 class="main__kontakt__h1">Kontakt</h1>
+            <div class="kontakt__generalinfo">
+                <p>
+                    <b>Besökadress</b>
+                    <br>
+                    <address>
+                        Konstnärsnämnden Maria Skolgata 83, 2 tr
+                        118 53  Stockholm
+                    </address>
+                    <br>
+                    Telefonväxel<a href="tel:+460850655000">+46 08-506 550 00</a>
+                    <br>
+                    <a href = "mailto:info@konstnarsnamnden.se">info@konstnarsnamnden.se</a>
+                    <br>
+                    <b>Organisationsnummer</b>
+                    <br>
+                    202100-3252
+                </p>
+                <div class="kontakt__googlemap">
+                    <iframe title="Shows Google map with Konstnärsnamnden address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.084563537161!2d18.051839316407783!3d59.31484488165382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e8f243ee4f%3A0xda475e897e70f206!2zS29uc3Ruw6Ryc27DpG1uZGVu!5e0!3m2!1sen!2sse!4v1636673511857!5m2!1sen!2sse" width="300" height="300" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>        
+
+        <section class="kontakt__hittahit">
+            <h2>Hitta hit</h2>
+            <p class="kontakt__p">
+                <b>Komunalt</b><br>
+                Buss 4, hållplats Wollmar Yxkullsgatan.
+                Tunnelbana, röd linje, hållplats Mariatorget, uppgång Torkel Knutssonsgatan. (även T-bana Zinkensdamm)
+                Pendeltåg, station Stockholms Södra, uppgång Rosenlundsgatan.
+            </p>
+            <p class="kontakt__p">
+                <b>Parkeringsplats</b>
+                <br>
+                Närmaste parkering är Maria skolgata.
+                Närmaste handikapparkering finns på Maria skolgata nummer 46.
+            </p>
+            <p class="kontakt__p">
+                <b>Tillgänglighet</b>
+                <br>
+                Handikappanpassad hiss finnes. Inne på Konstnärsnämnden finns en hiss mellan det övre och nedre planet. Toaletter för rörelsehindrade finns både på det övre och nedre planet. Om du behöver särskild hjälp med något, tala gärna om det i förväg så kan vi ge dig bättre service.
+            </p>
+        </section>
+      </article>
+
+    </main>
+
     <footer>
       <div class="left-right-wrapper">
         <div class="footer-left">
@@ -471,8 +525,9 @@
             class="socialIcon"
           />
         </div>
-        <p class="copyright">© Copyright 2021 groupEight</p>
+        <p class="copyright">© Copyright 2021 GroupEight</p>
       </div>
     </footer>
-  </body>
+
+  </body>  
 </html>
