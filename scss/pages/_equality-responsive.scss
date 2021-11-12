@@ -2,8 +2,30 @@
     position: relative;
     padding-bottom:300px;
 
-    .equality-breadcrumb {
-     margin-bottom: 3rem;
+
+    .equality-main {
+        padding: 20px 40px;
+
+        .equality-wrapper{
+            padding: 20px 40px;
+      
+            p{
+                padding-top: 20px; 
+            }
+
+        .equality-breadcrumb{
+
+            @include breadcrumb 
+         }
+
+    
+    h1 {
+        @include h1-mobile;
+    }
+
+   
+        }
+    /*margin-bottom: 3rem;
      font-size: 12px;
      a {
         text-decoration: none;
@@ -11,17 +33,26 @@
          font-weight: 600;
         font-size: 12px;
         }
-    }
+    }*/
 
-    
-    .equality-title1 {
-    padding: 10px 15px;
+    .equality-button1 {
+    // color: yellow;
+    @include button(6rem);
     text-align: center;
-    color: black;
-    }
-    .equality-title2 {
-        text-align: center;
-        font-size: 12px;
+    border-radius: 15px;
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+     }
 
+
+       
+    }
+    .links {
+       display: flex;
+       flex-direction: column;
+        gap: 5px;
+        text-decoration: none;
+        color: black;
     }
 }
