@@ -16,14 +16,14 @@
     background-color: #EBF0EE;
 }
 //
-@mixin button($width, $height) {
+@mixin button($width) {
     // color: #000;
     text-decoration: none;
-    padding-top: $height;
-    padding-bottom: $height;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
     padding-left: $width;
     padding-right: $width;
-    border-radius: 50%;
+    border-radius: 30px;
     background-color: $yellow;
     color: $black;
     font-weight: 600;
