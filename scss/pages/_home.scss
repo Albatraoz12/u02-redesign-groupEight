@@ -1,9 +1,12 @@
 // Home
-
-.home-main {
-    width: 100vw;
-    .button {
-        // color: yellow;
-        @include button(40px, 10px);
+.home-body{
+    position: relative;
+    padding-bottom: 300px;
+    .home-main {
+        width: 100vw;
+        .button {
+            // color: yellow;
+            @include button(40px, 10px);
+        }
     }
 }

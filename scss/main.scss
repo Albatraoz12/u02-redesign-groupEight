@@ -7,19 +7,24 @@
   // font-family: 'Poppins', sans-serif;
 }
 
+//Alla abstracts skall ligga här under
 @import './abstracts/variables';
 @import './abstracts/mixins';
 
+//Alla layout skall ligga här under
 @import './layout/nav';
 @import './layout/header';
 @import './layout/footer';
+
 //Alla pages skall ligga här under
 @import './pages/home';
+@import './pages/kontakt';
 @import './pages/vara-samarbeten';
 
 //All responsivitet skall ligga här!
 @import './layout/responsive';
 @import './layout/home-responsive';
+@import './layout/kontakt-responsive';
 @import './layout/vara-samarbeten-responsive';
 
 

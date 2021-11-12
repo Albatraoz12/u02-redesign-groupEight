@@ -1,0 +1,23 @@
+// Kontakt
+.kontakt-body{
+    position: relative;
+    padding-bottom: 300px;
+    .kontakt__main{
+        width: 100vw;
+        .button {
+            // color: yellow;
+            @include button(40px, 10px);
+        }
+        .breadcrumb{
+                    margin-bottom: 3rem;
+                    font-size: 12px;
+                    a {
+                        text-decoration: none;
+                        color: $black;
+                        font-weight: 600;
+                        font-size: 12px;
+                    }
+                }
+    }
+
+}
