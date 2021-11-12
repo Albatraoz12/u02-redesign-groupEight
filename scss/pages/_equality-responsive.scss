@@ -1,35 +1,27 @@
-@include media-lg {
-}
 .equality-body {
     position: relative;
     padding-bottom:300px;
 
-.equality_wrapper{
+    .equality-breadcrumb {
+     margin-bottom: 3rem;
+     font-size: 12px;
+     a {
+        text-decoration: none;
+         color: $black;
+         font-weight: 600;
+        font-size: 12px;
+        }
+    }
 
     
-        .equality-breadcrumb {
-            margin-bottom: 3rem;
-            font-size: 12px;
-            a {
-                text-decoration: none;
-                color: $black;
-                font-weight: 600;
-                font-size: 12px;
-            }
+    .equality-title1 {
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    }
+    .equality-title2 {
+        text-align: center;
+        font-size: 12px;
 
-        .equality-title {
-            position: center;
-            color: black;
-        }
-
-        }
-    
-
+    }
 }
-
-
-
-
-
-
-

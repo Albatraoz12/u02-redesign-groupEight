@@ -327,13 +327,27 @@ footer .footer-bottom .social-icons .socialIcon {
   padding-bottom: 300px;
 }
 
-.equality-body .equality-title {
-  position: center;
+.equality-body .equality-breadcrumb {
+  margin-bottom: 3rem;
+  font-size: 12px;
+}
+
+.equality-body .equality-breadcrumb a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.equality-body .equality-title1 {
+  padding: 10px 15px;
+  text-align: center;
   color: black;
 }
 
-.equality-body .equality_breadcrumb {
-  margin: 20px 0 0 20px;
+.equality-body .equality-title2 {
+  text-align: center;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 1024px) {
