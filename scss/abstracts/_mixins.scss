@@ -16,20 +16,57 @@
     background-color: #EBF0EE;
 }
 //
-@mixin button($width, $height) {
+@mixin button($width) {
     // color: #000;
     text-decoration: none;
-    padding-top: $height;
-    padding-bottom: $height;
-    padding-left: $width;
-    padding-right: $width;
-    border-radius: 50%;
+    padding: 0.9rem $width;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: block;
+    width: max-content;
     background-color: $yellow;
     color: $black;
     font-weight: 600;
     font-size: 14px;
 }
+//paragraf
+ @mixin paragraf {
+    font-family: $font;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-bottom: 2rem;
+ }
 
+//h1
+@mixin h1-mobile {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+}
+//h1-desktop
+@mixin h1-desktop {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+}
+
+//h2
+
+//breadcrumbs
+@mixin breadcrumb {
+    margin-bottom: 3rem;
+                font-size: 12px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+}
 //Media queries
 // @mixin media-md {
 //     @media screen and (min-width: 768px) {
@@ -42,9 +79,9 @@
     }
 }
 
-//Behövs kanske inte anpassas
-// @mixin media-xl {
-//     @media screen and (min-width: 1600px) {
-//         @content;
-//     }
-// }
+// Behövs kanske inte anpassas
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
