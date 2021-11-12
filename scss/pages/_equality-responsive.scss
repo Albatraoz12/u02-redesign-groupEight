@@ -7,7 +7,6 @@
         padding: 20px 40px;
 
         .equality-wrapper{
-            padding: 20px 40px;
       
             p{
                 padding-top: 20px; 
@@ -38,19 +37,19 @@
     .equality-button1 {
     // color: yellow;
     @include button(6rem);
-    text-align: center;
+    /*text-align: center;
     border-radius: 15px;
     display: block;
-    width: 300px;
-    margin: 50px auto;
+    margin: 50px auto;*/
      }
 
 
        
     }
     .links {
-       display: flex;
-       flex-direction: column;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
         gap: 5px;
         text-decoration: none;
         color: black;
