@@ -1,0 +1,21 @@
+@include media-lg {
+
+    .kontakt-body{
+        .kontakt__main{
+            .breadcrumb{
+                background-color: red;
+                margin-bottom: 3rem;
+                font-size: 12px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+            }
+            .button{
+                // color:#000000;
+            }
+        }
+    }
+}

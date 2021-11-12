@@ -1,0 +1,20 @@
+@include media-lg {
+
+    .economics-body {
+
+        .economics-wrapper {
+            h1 {
+                @include h1-desktop;
+               }
+
+            .economics-text-wrapper {
+                width: 60%;
+            }
+
+           
+        }
+    }
+
+    
+    
+}

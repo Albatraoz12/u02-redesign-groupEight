@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="./scss/dist/css/main.css" />
     <title>Konstnärsnämnden</title>
   </head>
-  <body>
+
+  <body class="home-body">
     <header>
       <div class="header-left">
         <a href=""
@@ -40,7 +41,7 @@
         /></a>
       </div>
     </header>
-
+    
     <nav class="nav">
       <a href=""
         ><img class="logo" src="./scss/dist/images/logo.png" alt=""
@@ -427,6 +428,172 @@
         </li>
       </ul>
     </nav>
+
+    <main class="home__main">
+      <article class="main__article">
+
+        <section class="main__intro">
+          <p class="main__paragraph">
+            Konstnärsnämnden stödjer professionella konstnärers arbete, utveckling och internationella kontakter
+          </p>
+          <img src="/scss/dist/images/home-statue.jpg" alt="Shows artists" width="100">
+        </section>
+
+        <h1 class="main__h1">Aktuellt</h1>
+
+        <section class="main__aktuellt">
+          <h2 class="main__h2">2021 års Ganneviksstipendiater</h2>
+          <img src="scss/dist/images/home-artists.PNG" alt="Shows a statue of 3 people" class="main__image" width="100">
+        </section>
+
+        <section class="main__oppnaansokningar">
+          <h2 class="main__title__h2">Öppna ansökningar</h2>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="scss/dist/images/home-musik.jpg" alt="Shows a person playing the guitar" class="main__musik__img" width="100">
+            </div>
+
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Musik</h2> 
+              <button type="button" class="main__button__card">Ansök här</button>      
+            </div>    
+          </div>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="/scss/dist/images/home-bildform.jpg" alt="Shows a person painting" class="main__musik__img" width="100">
+            </div>
+
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Musik</h2> 
+              <button type="button" class="main__button__card">Ansök här</button>      
+            </div>    
+          </div>
+          <button type="button" class="main__button__kategonyheter">Se fler kategorier</button>        
+        </section>
+
+        <section class="main__senastenytt">
+          <h2 class="main__title__h2">Senaste nytt</h2>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="scss/dist/images/home-watch.jpg" alt="Shows a watch" class="main__card__img" width="100">
+            </div>
+
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Ändrade öppertider</h2> 
+              <button type="button" class="main__button__card">Läs mer</button>      
+            </div>    
+          </div>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="scss/dist/images/home-laptop.jpg" alt="Shows a laptop and a person" class="main__card__img" width="100">
+            </div>
+
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Beslut om extra arbetsstipendier</h2> 
+              <button type="button" class="main__button__card">Läs mer</button>      
+            </div>    
+          </div>
+          <button type="button" class="main__button__kategonyheter">Gå till nyheter</button>        
+
+        </section>
+
+        <section class="main__kalendarium">
+          <h2 class="main__title__h2">Kalendarium</h2>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="/scss/dist/images/home-earth-planet.jpg" alt="Shows an earth planet" class="main__card__img" width="100">
+            </div>
+
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Cross pollination</h2> 
+              <button type="button" class="main__button__card">Gå till event</button>      
+            </div>    
+          </div>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="/scss/dist/images/home-art-exhibition.jpg" alt="Shows a palette picture" class="main__card__img" width="100">
+            </div>
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Beslut om extra arbetsstipendier</h2> 
+              <button type="button" class="main__button__card">Läs mer</button>      
+            </div>    
+          </div>
+
+          <div class="main__card__container">
+            <div class="main__card__image">
+              <img src="/scss/dist/images/home-film.jpg" alt="Shows a movie theater" class="main__card__img" width="100">
+            </div>
+            <div class="main__card__content">      
+              <h2 class="main__card__h2">Film Festival</h2> 
+              <button type="button" class="main__button__card">Gå till event</button>      
+            </div>    
+          </div>
+
+          <button type="button" class="main__button__kategonyheter">Gå till kalender</button>        
+  
+        </section>
+
+        <section class="main__nyhetsbrev">
+            <h2 class="main__title__h2">Nyhetsbrev</h2>
+
+            <form class="form__main" action="#" method="post">
+              <label for="fornamn">*Förnamn</label>
+              <input id="fornamn" type="text" name="fornamn" placeholder="Skriv ditt förnamn här">
+              <br>
+              
+              <label for="efternamn">*Efternamn</label>
+              <input id="efternamn" type="text" name="efternamn" placeholder="Skriv ditt efternamn här">
+              <br>
+
+              <label for="epostadress">*E-postadress</label>
+              <input id="epostadress" type="email" name="epostadress" placeholder="email@domain.com">
+              <br>
+
+              <label id="form__main__infolabel" class="form__selector">Jag vill ha information om:</label>
+                <select class="form__main__infolabel" id="information" name="information">
+                  <option value="info1">Info1</option>
+                  <option value="info1">Info2</option>
+                  <option value="info1">Info3</option>
+                  <option value="info1">Info4</option>
+                </select>
+              <!-- <input class="form__main__info__submit" type="submit" value="Skicka"> -->
+              <!-- 
+                <label id="form__main__infolabel" class="form__selector">Jag vill ha information om:</label>
+                <input type="text" list="information" style="width: 20px;">
+                <datalist id="information">
+                  <option value="info1">Info1</option>
+                  <option value="info1">Info2</option>
+                  <option value="info1">Info3</option>
+                  <option value="info1">Info4</option>
+                </datalist>
+              <input class="form__main__info__submit" type="submit" value=">"> -->
+
+              <!--
+              https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select 
+              https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_optgroup
+              https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_option
+              https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_datalist               
+              -->
+
+              <p id="inbjudning" class="form__inbjudning">Jag vill få inbjudningar till publik programverksamhet från: </p>
+              <input type="checkbox" name="iaspis" id="iaspis">
+              <label id="iaspis" for="iaspis">IASPIS-programmet</label>         
+            </form>
+            <p class="form__obligatoryfields">* = Obligatoriska fält i formuläret</p>
+            <button type="button">Prenumerera</button>
+
+        </section>
+      
+      </article>
+
+    </main>
+
     <footer>
       <div class="left-right-wrapper">
         <div class="footer-left">
@@ -473,5 +640,5 @@
         <p class="copyright">© Copyright 2021 groupEight</p>
       </div>
     </footer>
-  </body>
+  </body>  
 </html>
