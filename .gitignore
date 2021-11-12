@@ -1,8 +1,12 @@
-scss/dist/css
+./scss/dist/css/
 
 /css
 
+css
+
 /css/*
+
+scss\dist\css
 
 scss/dist/css/main.css
 
