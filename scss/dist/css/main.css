@@ -482,14 +482,14 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 28px;
 }
 
-.divider {
+.grants-body .divider {
   height: 50px;
   width: 100%;
   margin: 20px 0;
   background-color: #1A2F34;
 }
 
-.grants-catergories {
+.grants-body .grants-catergories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,7 +500,7 @@ footer .footer-bottom .social-icons .socialIcon {
   gap: 15px;
 }
 
-.grants-catergories .grants-box-style {
+.grants-body .grants-catergories .grants-box-style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -512,7 +512,7 @@ footer .footer-bottom .social-icons .socialIcon {
   box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
 }
 
-.grants-catergories .grants-box-style .applyhere-button {
+.grants-body .grants-catergories .grants-box-style .applyhere-button {
   text-decoration: none;
   padding: 0.9rem 6rem;
   border-radius: 50px;
@@ -526,6 +526,43 @@ footer .footer-bottom .social-icons .socialIcon {
   color: #000000;
   font-weight: 600;
   font-size: 14px;
+}
+
+.grants-body .info-grants-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  text-align: center;
+}
+
+.grants-body .info-grants-container .applybox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: #FBD59E;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grants-body .info-grants-container .grantbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  background-color: #FBD59E;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
