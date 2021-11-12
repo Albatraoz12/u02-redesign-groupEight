@@ -274,19 +274,10 @@ footer .footer-bottom .social-icons .socialIcon {
 
 .home-main {
   width: 100vw;
-}
-
-.home-main .button {
-  text-decoration: none;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 30px;
-  background-color: #FBD59E;
-  color: #000000;
-  font-weight: 600;
-  font-size: 14px;
+  /* .button {
+        // color: yellow;
+        @include button(40px, 10px);
+    } */
 }
 
 .samarbeten-body {
@@ -332,17 +323,27 @@ footer .footer-bottom .social-icons .socialIcon {
 }
 
 .economics-body .economics-wrapper .economics-breadcrumbs {
-  font-weight: 600;
+  margin-bottom: 3rem;
   font-size: 12px;
+  /* font-weight: 600;
+            font-size: 12px;
+
+            & > *{
+                text-decoration: none;
+                color: $black;
+                
+            }
+
+            & a:hover {
+                color: $yellow;
+            } */
 }
 
-.economics-body .economics-wrapper .economics-breadcrumbs > * {
+.economics-body .economics-wrapper .economics-breadcrumbs a {
   text-decoration: none;
   color: #000000;
-}
-
-.economics-body .economics-wrapper .economics-breadcrumbs a:hover {
-  color: #FBD59E;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .economics-body .economics-wrapper h1, .economics-body .economics-wrapper h2 {
@@ -351,13 +352,20 @@ footer .footer-bottom .social-icons .socialIcon {
 }
 
 .economics-body .economics-wrapper h1 {
-  font-size: 38px;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
 }
 
 .economics-body .economics-wrapper p {
-  margin: 20px 0px;
-  max-width: 900px;
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.8;
   font-size: 18px;
+  padding-bottom: 2rem;
+  /*  margin: 20px 0px;
+            font-size: 18px; */
 }
 
 .economics-body .economics-wrapper .economics-text-wrapper {
@@ -368,27 +376,30 @@ footer .footer-bottom .social-icons .socialIcon {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .economics-body .economics-wrapper .button {
   text-decoration: none;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 30px;
+  padding: 0.9rem 6rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   background-color: #FBD59E;
   color: #000000;
   font-weight: 600;
   font-size: 14px;
-  text-align: center;
-  border-radius: 15px;
-  display: block;
-  width: 300px;
-  margin: 50px auto;
+  /*text-align: center;
+            border-radius: 15px;
+            display: block;
+            width: 300px;
+            margin: 50px auto;
+            */
 }
 
 .economics-body .economics-wrapper .uppdrag-container {
@@ -769,6 +780,18 @@ footer .footer-bottom .social-icons .socialIcon {
 @media screen and (min-width: 1600px) {
   .samarbeten-body .samarbeten-wrapper {
     height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .economics-body .economics-wrapper h1 {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+  }
+  .economics-body .economics-wrapper .economics-text-wrapper {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=main.css.map */
