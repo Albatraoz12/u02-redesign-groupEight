@@ -274,19 +274,10 @@ footer .footer-bottom .social-icons .socialIcon {
 
 .home-main {
   width: 100vw;
-}
-
-.home-main .button {
-  text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 50%;
-  background-color: #FBD59E;
-  color: #000000;
-  font-weight: 600;
-  font-size: 14px;
+  /* .button {
+        // color: yellow;
+        @include button(40px, 10px);
+    } */
 }
 
 .samarbeten-body {
@@ -322,18 +313,146 @@ footer .footer-bottom .social-icons .socialIcon {
       align-self: flex-start;
 }
 
-.equality-body {
+/*@import './pages/equality';*/
+.economics-body {
   position: relative;
   padding-bottom: 300px;
 }
 
-.equality-body .equality-title {
-  position: center;
-  color: black;
+.economics-body .economics-wrapper {
+  padding: 20px 40px;
 }
 
-.equality-body .equality_breadcrumb {
-  margin: 20px 0 0 20px;
+.economics-body .economics-wrapper .economics-breadcrumbs {
+  margin-bottom: 3rem;
+  font-size: 12px;
+  /* font-weight: 600;
+            font-size: 12px;
+
+            & > *{
+                text-decoration: none;
+                color: $black;
+                
+            }
+
+            & a:hover {
+                color: $yellow;
+            } */
+}
+
+.economics-body .economics-wrapper .economics-breadcrumbs a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.economics-body .economics-wrapper h1, .economics-body .economics-wrapper h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.economics-body .economics-wrapper h1 {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+}
+
+.economics-body .economics-wrapper p {
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 2rem;
+  /*  margin: 20px 0px;
+            font-size: 18px; */
+}
+
+.economics-body .economics-wrapper .economics-text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.economics-body .economics-wrapper .button {
+  text-decoration: none;
+  padding: 0.9rem 6rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #FBD59E;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  /*text-align: center;
+            border-radius: 15px;
+            display: block;
+            width: 300px;
+            margin: 50px auto;
+            */
+}
+
+.economics-body .economics-wrapper .uppdrag-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.economics-body .economics-wrapper .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.economics-body .economics-wrapper .img-container p {
+  color: #ffffff;
+  z-index: 2;
+}
+
+.economics-body .economics-wrapper .img-container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.grants-body {
+  position: relative;
+  padding-bottom: 300px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -667,6 +786,18 @@ footer .footer-bottom .social-icons .socialIcon {
 @media screen and (min-width: 1600px) {
   .samarbeten-body .samarbeten-wrapper {
     height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .economics-body .economics-wrapper h1 {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+  }
+  .economics-body .economics-wrapper .economics-text-wrapper {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=main.css.map */
