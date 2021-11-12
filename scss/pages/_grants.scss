@@ -1,21 +1,16 @@
 .grants-body {
     position: relative;
     padding-bottom:300px;
-}
 
-.grants-wrapper {
-    padding: 20px 40px;
-}
+    .grants-main {
+        padding: 20px 40px;
 
-.grants-main {
-    padding: 20px 40px;
-
-    .grants-wrapper{
-  
+       
         p{
             padding-top: 20px; 
         }
-
+  
+       
     .grants-breadcrumb{
 
         @include breadcrumb 
@@ -24,5 +19,33 @@
 
 h1 {
     @include h1-mobile;
-}
+        }
+        } 
+    } 
+
+    .divider {
+        height: 50px;
+        width:100%;
+        margin: 20px 0;
+        background-color: $darkGreen;
+    }
+
+    .grants-catergories {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .grants-box-style{
+            display: flex;
+            flex-direction: row;
+            -webkit-box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.82); 
+            box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.82);
+
+
+   .applyhere-button{
+    @include button(6rem)
+            }
+        
+        }
+   } 
 

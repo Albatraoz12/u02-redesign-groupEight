@@ -455,6 +455,79 @@ footer .footer-bottom .social-icons .socialIcon {
   padding-bottom: 300px;
 }
 
+.grants-body .grants-main {
+  padding: 20px 40px;
+}
+
+.grants-body .grants-main p {
+  padding-top: 20px;
+}
+
+.grants-body .grants-main .grants-breadcrumb {
+  margin-bottom: 3rem;
+  font-size: 12px;
+}
+
+.grants-body .grants-main .grants-breadcrumb a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.grants-body .grants-main h1 {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+}
+
+.divider {
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #1A2F34;
+}
+
+.grants-catergories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.grants-catergories .grants-box-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+}
+
+.grants-catergories .grants-box-style .applyhere-button {
+  text-decoration: none;
+  padding: 0.9rem 6rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #FBD59E;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 @media screen and (min-width: 1024px) {
   header {
     display: -webkit-box;
