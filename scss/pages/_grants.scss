@@ -6,3 +6,23 @@
 .grants-wrapper {
     padding: 20px 40px;
 }
+
+.grants-main {
+    padding: 20px 40px;
+
+    .grants-wrapper{
+  
+        p{
+            padding-top: 20px; 
+        }
+
+    .grants-breadcrumb{
+
+        @include breadcrumb 
+     }
+    
+
+h1 {
+    @include h1-mobile;
+}
+
