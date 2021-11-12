@@ -219,7 +219,7 @@ footer {
   background-color: #1A2F34;
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   color: #C4C4C4;
   padding: 1rem;
   -webkit-box-sizing: border-box;
@@ -320,6 +320,103 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 12px;
   -ms-flex-item-align: start;
       align-self: flex-start;
+}
+
+.nyheter-body {
+  position: relative;
+  padding-bottom: 300px;
+}
+
+.nyheter-body .nyheter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-kort-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  gap: 30px;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-breadcrumb {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-breadcrumb a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-heading {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-heading2 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 10%;
+  margin-bottom: 22px;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-kort {
+  background-color: #EBF0EE;
+  border-radius: 10px;
+  height: 160px;
+  width: 100%;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-kort .kort-heading {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-kort .kort-bekrivning {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.nyheter-body .nyheter-wrapper .nyheter-kort a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nyheter-body .nyheter-wrapper .nyher-carusel-scroll {
+  font-size: 30px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -653,6 +750,45 @@ footer .footer-bottom .social-icons .socialIcon {
 @media screen and (min-width: 1600px) {
   .samarbeten-body .samarbeten-wrapper {
     height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nyheter-body {
+    position: relative;
+    padding-bottom: 300px;
+  }
+  .nyheter-body .nyheter-wrapper .nyheter-kort-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 60%;
+    gap: 30px;
+  }
+  .nyheter-body .nyheter-wrapper .nyheter-kort-wrapper .nyheter-kort {
+    height: 350px;
+    width: 358px;
+  }
+  .nyheter-body .nyheter-wrapper .nyheter-kort-wrapper .nyheter-kort .kort-heading {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .nyheter-body .nyheter-wrapper .nyheter-kort-wrapper .nyheter-kort .kort-bekrivning {
+    font-size: 18px;
+    padding: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+@include media-lg{
+  .nyheter-body{
+    position: relative;
+    padding-bottom:300px;
+
+    .nyheter-wrapper{
+       
+        .nyheter-kort-wrapper{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 60%;
+          gap: 30px;
+            .nyheter-kort{
+              height: 350px;
+              width: 358px;
+
+              .kort-heading{
+                font-size: 24px;
+                font-weight: bold;
+                padding: 20px;
+              }
+        
+              .kort-bekrivning{
+                font-size: 18px;
+                padding: 20px;
+              }
+        }
+      }
+    }
+
+
+
+
+
+
+  }
+
+
+
+
+}
