@@ -15,6 +15,9 @@
 
     h2 {
       text-align: center;
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+      font-weight: 600;
     }
 
     .about-paragraph {
@@ -23,7 +26,7 @@
       line-height: 1.8;
       font-size: 18px;
       padding-bottom: 2rem;
-  }
+    }
 
     .about-breadcrumb {
       margin-bottom: 3rem;
@@ -44,7 +47,7 @@
       gap: 1rem;
       font-size: 14px;
       padding-top: 10%;
-      //padding-bottom: 10%;
+      padding-bottom: 10%;
 
       .about-international,
       .about-government,
@@ -72,16 +75,27 @@
     }
     .about-pictures {
       display: flex;
+      flex-direction: row;
+      justify-content: center;
       flex-wrap: wrap;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      gap: 2rem;
+
       .about-colleagues {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 156px;
-        height: 103px;
+        width: 262.5px;
+        height: 150px;
         background-color: #000;
         color: #fff;
-        background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/colleagues.png');
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/colleagues.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -91,20 +105,64 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 156px;
-        height: 103px;
+        width: 262.5px;
+        height: 150px;
         background-color: #000;
         color: #fff;
-        background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/colleagues.png');
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/paperboard.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    .about-images-text {
-      text-align: center;
-      font-size: 12px;
-      
+      }
+
+      .about-whiteboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262.5px;
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/whiteboard.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about-ipadman {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262.5px;
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/ipadman.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about-images-text {
+        text-align: center;
+        font-size: 14px;
+        padding: 1rem;
+      }
     }
   }
 }
- }

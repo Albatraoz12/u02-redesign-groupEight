@@ -308,6 +308,9 @@ footer .footer-bottom .social-icons .socialIcon {
 
 .about-body .about-main h2 {
   text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
 }
 
 .about-body .about-main .about-paragraph {
@@ -343,6 +346,7 @@ footer .footer-bottom .social-icons .socialIcon {
   gap: 1rem;
   font-size: 14px;
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .about-body .about-main .about-icon-wrapper .about-international,
@@ -396,8 +400,18 @@ footer .footer-bottom .social-icons .socialIcon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
 }
 
 .about-body .about-main .about-pictures .about-colleagues {
@@ -410,8 +424,8 @@ footer .footer-bottom .social-icons .socialIcon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 156px;
-  height: 103px;
+  width: 262.5px;
+  height: 150px;
   background-color: #000;
   color: #fff;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/colleagues.png");
@@ -431,12 +445,54 @@ footer .footer-bottom .social-icons .socialIcon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 156px;
-  height: 103px;
+  width: 262.5px;
+  height: 150px;
   background-color: #000;
   color: #fff;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/colleagues.png");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/colleagues.png");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/paperboard.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/paperboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-body .about-main .about-pictures .about-whiteboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 262.5px;
+  height: 150px;
+  background-color: #000;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/whiteboard.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/whiteboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-body .about-main .about-pictures .about-ipadman {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 262.5px;
+  height: 150px;
+  background-color: #000;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/ipadman.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ipadman.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -444,7 +500,8 @@ footer .footer-bottom .social-icons .socialIcon {
 
 .about-body .about-main .about-pictures .about-images-text {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
+  padding: 1rem;
 }
 
 /*@include media-md {
