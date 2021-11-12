@@ -4,21 +4,31 @@
     padding-bottom:300px;
 
     .nyheter-wrapper{
-       
+      .nyheter-wrapper-intro{
+        width: 60%;
+
+        h1{
+        @include h1-desktop;
+       }
+       h2{
+         align-self: flex-start;
+       }
+      }
         .nyheter-kort-wrapper{
           display: flex;
-          flex-direction: row;
           justify-content: center;
           align-items: center;
+          flex-direction: row;
           flex-wrap: wrap;
           width: 60%;
           gap: 30px;
+        
             .nyheter-kort{
               height: 350px;
               width: 358px;
 
               .kort-heading{
-                font-size: 24px;
+                font-size: 20px;
                 font-weight: bold;
                 padding: 20px;
               }
@@ -30,15 +40,5 @@
         }
       }
     }
-
-
-
-
-
-
   }
-
-
-
-
 }
