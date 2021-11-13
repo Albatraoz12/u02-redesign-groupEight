@@ -1,0 +1,21 @@
+.samarbeten-body {
+  position: relative;
+  padding-bottom:300px;
+ 
+
+    .samarbeten-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;      
+      gap: 20px;
+        .samarbeten-heading{
+          font-size: 28px;
+        }
+        .samarbeten-breadcrumb{
+          margin: 10px 0 0 10px;
+          font-size: 12px;
+          align-self: flex-start;
+        }
+    }
+  }
