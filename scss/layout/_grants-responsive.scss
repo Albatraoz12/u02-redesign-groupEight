@@ -2,14 +2,10 @@
 
     .grants-body {
 
-        .grants-wrapper {
+        .grants-main {
             h1 {
                 @include h1-desktop;
                }
-
-          /*   .grants-text-wrapper {
-                width: 60%;
-            } */
 
            
         }

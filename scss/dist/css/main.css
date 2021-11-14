@@ -486,14 +486,14 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 28px;
 }
 
-.divider {
+.grants-body .divider {
   height: 50px;
   width: 100%;
   margin: 20px 0;
   background-color: #1A2F34;
 }
 
-.grants-catergories {
+.grants-body .grants-catergories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,7 +504,7 @@ footer .footer-bottom .social-icons .socialIcon {
   gap: 15px;
 }
 
-.grants-catergories .grants-box-style {
+.grants-body .grants-catergories .grants-box-style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -514,9 +514,20 @@ footer .footer-bottom .social-icons .socialIcon {
           flex-direction: row;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
   box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+  /* text-decoration: none;
+            padding: 0.9rem $width;
+            border-radius: 50px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            display: block;
+            width: max-content;
+            background-color: $yellow;
+            color: $black;
+            font-weight: 600;
+            font-size: 14px; */
 }
 
-.grants-catergories .grants-box-style .applyhere-button {
+.grants-body .grants-catergories .grants-box-style .applyhere-button {
   text-decoration: none;
   padding: 0.9rem 6rem;
   border-radius: 50px;
@@ -532,7 +543,7 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 14px;
 }
 
-.info-grants-container {
+.grants-body .info-grants-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,7 +553,7 @@ footer .footer-bottom .social-icons .socialIcon {
   text-align: center;
 }
 
-.info-grants-container .applybox {
+.grants-body .info-grants-container .applybox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,7 +566,7 @@ footer .footer-bottom .social-icons .socialIcon {
           justify-content: center;
 }
 
-.info-grants-container .grantbox {
+.grants-body .info-grants-container .grantbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -916,12 +927,7 @@ footer .footer-bottom .social-icons .socialIcon {
 }
 
 @media screen and (min-width: 1024px) {
-  .grants-body .grants-wrapper {
-    /*   .grants-text-wrapper {
-                width: 60%;
-            } */
-  }
-  .grants-body .grants-wrapper h1 {
+  .grants-body .grants-main h1 {
     margin-bottom: 3rem;
     font-weight: bold;
     text-align: center;

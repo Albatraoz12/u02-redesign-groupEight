@@ -1,80 +1,84 @@
 .grants-body {
-    position: relative;
-    padding-bottom:300px;
+  position: relative;
+  padding-bottom: 300px;
 
     .grants-main {
-        padding: 20px 40px;
+    padding: 20px 40px;
     }
-       
-        p{
-            padding-top: 20px; 
-        }
-  
-       
-    .grants-breadcrumb{
 
-        @include breadcrumb 
-     }
-    
-     h1, h2 {
-         padding: 15px;
-     }
+p {
+ padding-top: 20px;
+}
 
-h1 {
+
+
+  .grants-breadcrumb {
+    @include breadcrumb;
+  }
+
+  h1,h2 {
+    padding: 15px;
+  }
+
+  h1 {
     @include h1-mobile;
-        }
-        } 
-    
-
-    .divider {
-        height: 50px;
-        width:100%;
-        margin: 20px 0;
-        background-color: $darkGreen;
-    }
+  }
+      
+.divider {
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+  background-color: $darkGreen;
+  
+}
 
     .grants-catergories {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
-        .grants-box-style{
-            display: flex;
-            flex-direction: row;
-            -webkit-box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.82); 
-            box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.82);
+    .grants-box-style {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+    box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
 
-
-   .applyhere-button{
-    @include button(6rem)
-            }
-        
-        }
-   } 
-    .info-grants-container{
-
+    .applyhere-button {
+      @include button(6rem);
+    }
+    /* text-decoration: none;
+            padding: 0.9rem $width;
+            border-radius: 50px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            display: block;
+            width: max-content;
+            background-color: $yellow;
+            color: $black;
+            font-weight: 600;
+            font-size: 14px; */
+  }
+}
+    .info-grants-container {
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         text-align: center;
 
-
-        .applybox {
+    .applybox {
         display: flex;
         height: 100px;
         flex-basis: 100%;
         background-color: $yellow;
         justify-content: center;
-
-        }
-        .grantbox {
-            display: flex;
-            height: 100px;
-            flex: 40%;
-            background-color: $yellow;
-            justify-content: center;
-            
-
-        }
+    }
+    .grantbox {
+        display: flex;
+        height: 100px;
+        flex: 40%;
+        background-color: $yellow;
+        justify-content: center;
+     }
     }
 
+}
