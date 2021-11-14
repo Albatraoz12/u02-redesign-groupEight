@@ -1,0 +1,17 @@
+@include media-lg {
+
+    .grants-body {
+
+        .grants-wrapper {
+            h1 {
+                @include h1-desktop;
+               }
+
+          /*   .grants-text-wrapper {
+                width: 60%;
+            } */
+
+           
+        }
+    }
+}

@@ -4,7 +4,7 @@
 
     .grants-main {
         padding: 20px 40px;
-
+    }
        
         p{
             padding-top: 20px; 
@@ -16,6 +16,9 @@
         @include breadcrumb 
      }
     
+     h1, h2 {
+         padding: 15px;
+     }
 
 h1 {
     @include h1-mobile;
@@ -74,4 +77,4 @@ h1 {
 
         }
     }
-}
+

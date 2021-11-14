@@ -459,37 +459,41 @@ footer .footer-bottom .social-icons .socialIcon {
   padding: 20px 40px;
 }
 
-.grants-body .grants-main p {
+.grants-body p {
   padding-top: 20px;
 }
 
-.grants-body .grants-main .grants-breadcrumb {
+.grants-body .grants-breadcrumb {
   margin-bottom: 3rem;
   font-size: 12px;
 }
 
-.grants-body .grants-main .grants-breadcrumb a {
+.grants-body .grants-breadcrumb a {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
   font-size: 12px;
 }
 
-.grants-body .grants-main h1 {
+.grants-body h1, .grants-body h2 {
+  padding: 15px;
+}
+
+.grants-body h1 {
   margin-bottom: 3rem;
   font-weight: bold;
   text-align: center;
   font-size: 28px;
 }
 
-.grants-body .divider {
+.divider {
   height: 50px;
   width: 100%;
   margin: 20px 0;
   background-color: #1A2F34;
 }
 
-.grants-body .grants-catergories {
+.grants-catergories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,7 +504,7 @@ footer .footer-bottom .social-icons .socialIcon {
   gap: 15px;
 }
 
-.grants-body .grants-catergories .grants-box-style {
+.grants-catergories .grants-box-style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -512,7 +516,7 @@ footer .footer-bottom .social-icons .socialIcon {
   box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
 }
 
-.grants-body .grants-catergories .grants-box-style .applyhere-button {
+.grants-catergories .grants-box-style .applyhere-button {
   text-decoration: none;
   padding: 0.9rem 6rem;
   border-radius: 50px;
@@ -528,7 +532,7 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 14px;
 }
 
-.grants-body .info-grants-container {
+.info-grants-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -538,7 +542,7 @@ footer .footer-bottom .social-icons .socialIcon {
   text-align: center;
 }
 
-.grants-body .info-grants-container .applybox {
+.info-grants-container .applybox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -551,7 +555,7 @@ footer .footer-bottom .social-icons .socialIcon {
           justify-content: center;
 }
 
-.grants-body .info-grants-container .grantbox {
+.info-grants-container .grantbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -908,6 +912,20 @@ footer .footer-bottom .social-icons .socialIcon {
   }
   .economics-body .economics-wrapper .economics-text-wrapper {
     width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grants-body .grants-wrapper {
+    /*   .grants-text-wrapper {
+                width: 60%;
+            } */
+  }
+  .grants-body .grants-wrapper h1 {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
   }
 }
 /*# sourceMappingURL=main.css.map */
