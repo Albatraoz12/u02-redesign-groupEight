@@ -455,26 +455,23 @@ footer .footer-bottom .social-icons .socialIcon {
   padding-bottom: 300px;
 }
 
-.grants-body .grants-wrapper {
+.grants-body .grants-main .grants-text-wrapper {
   padding: 20px 40px;
-  /*   h1,h2 {
-            padding: 15px;
-    } */
 }
 
-.grants-body .grants-wrapper .grants-breadcrumb {
+.grants-body .grants-main .grants-text-wrapper .grants-breadcrumb {
   margin-bottom: 3rem;
   font-size: 12px;
 }
 
-.grants-body .grants-wrapper .grants-breadcrumb a {
+.grants-body .grants-main .grants-text-wrapper .grants-breadcrumb a {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
   font-size: 12px;
 }
 
-.grants-body .grants-wrapper p {
+.grants-body .grants-main .grants-text-wrapper p {
   font-family: "Montserrat", Sans-serif;
   letter-spacing: 1px;
   line-height: 1.8;
@@ -482,21 +479,25 @@ footer .footer-bottom .social-icons .socialIcon {
   padding-bottom: 2rem;
 }
 
-.grants-body .grants-wrapper h1 {
+.grants-body .grants-main .grants-text-wrapper h2 {
+  padding: 15px;
+}
+
+.grants-body .grants-main .grants-text-wrapper h1 {
   margin-bottom: 3rem;
   font-weight: bold;
   text-align: center;
   font-size: 28px;
 }
 
-.grants-body .grants-wrapper .divider {
-  height: 50px;
+.grants-body .grants-main .divider {
+  height: 60px;
   width: 100%;
   margin: 20px 0;
   background-color: #1A2F34;
 }
 
-.grants-body .grants-wrapper .grants-catergories {
+.grants-body .grants-main .grants-catergories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,7 +508,7 @@ footer .footer-bottom .social-icons .socialIcon {
   gap: 15px;
 }
 
-.grants-body .grants-wrapper .grants-catergories .grants-box-style {
+.grants-body .grants-main .grants-catergories .grants-box-style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,28 +518,11 @@ footer .footer-bottom .social-icons .socialIcon {
           flex-direction: row;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
   box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
-  /* text-decoration: none;
-            padding: 0.9rem $width;
-            border-radius: 50px;
-            margin: 0 auto;
-            margin-bottom: 50px;
-            display: block;
-            width: max-content;
-            background-color: $yellow;
-            color: $black;
-            font-weight: 600;
-            font-size: 14px; */
-  /* 
-    img{
-            width: 50px;
-            height: 50px;
-            padding: 0px;
-    }  */
 }
 
-.grants-body .grants-wrapper .grants-catergories .grants-box-style .applyhere-button {
+.grants-body .grants-main .grants-catergories .grants-box-style .applyhere-button {
   text-decoration: none;
-  padding: 0.9rem 6rem;
+  padding: 0.9rem 2rem;
   border-radius: 50px;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -552,7 +536,13 @@ footer .footer-bottom .social-icons .socialIcon {
   font-size: 14px;
 }
 
-.grants-body .grants-wrapper .info-grants-container {
+.grants-body .grants-main .grants-catergories .grants-box-style img {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+}
+
+.grants-body .grants-main .info-grants-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,7 +552,7 @@ footer .footer-bottom .social-icons .socialIcon {
   text-align: center;
 }
 
-.grants-body .grants-wrapper .info-grants-container .applybox {
+.grants-body .grants-main .info-grants-container .applybox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -575,7 +565,7 @@ footer .footer-bottom .social-icons .socialIcon {
           justify-content: center;
 }
 
-.grants-body .grants-wrapper .info-grants-container .grantbox {
+.grants-body .grants-main .info-grants-container .grantbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,6 +573,7 @@ footer .footer-bottom .social-icons .socialIcon {
   -webkit-box-flex: 40%;
       -ms-flex: 40%;
           flex: 40%;
+  padding-left: 5px;
   background-color: #FBD59E;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -929,9 +920,6 @@ footer .footer-bottom .social-icons .socialIcon {
     font-weight: bold;
     text-align: center;
     font-size: 48px;
-  }
-  .economics-body .economics-wrapper .economics-text-wrapper {
-    width: 60%;
   }
 }
 
