@@ -21,6 +21,7 @@
       margin: 1rem auto;
       display: grid;
       grid-template-rows: 8rem auto 10rem;
+      border-radius: 20px;
       // box-shadow: 0 1rem 2.5rem rgb(27,64,94);
 
       &__header{
@@ -128,8 +129,13 @@
       .presentation-img{
         width: 100%;
       }
+      h3{
+        margin: 10px;
+        font-size: 15px;
+      }
       p{
-        margin-top: 20px;
+        margin: 10px;
+        font-size: 13px;
       }
       a{
         text-decoration: none;
