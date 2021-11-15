@@ -2,33 +2,36 @@
     position: relative;
     padding-bottom: 300px;
 
-        .grants-wrapper {
+    .grants-main {
+
+   
+        .grants-text-wrapper {
          padding: 20px 40px;
 
+    
 
          .grants-breadcrumb {
             @include breadcrumb;
-            
           }
 
-    p {
-        @include paragraf;
-    }
-    
-  /*   h1,h2 {
+          p {
+            @include paragraf;
+        }
+        h2 {
             padding: 15px;
-    } */
-
-    h1 {
-            @include h1-mobile;
-    }
+            } 
+    
+        h1 {
+                @include h1-mobile;
+        }
+    
+}
       
     .divider {
-        height: 50px;
+        height: 40px;
         width: 100%;
         margin: 20px 0;
         background-color: $darkGreen;
-        
         }
 
 
@@ -46,47 +49,36 @@
     .applyhere-button {
       @include button(6rem);
     }
-    /* text-decoration: none;
-            padding: 0.9rem $width;
-            border-radius: 50px;
-            margin: 0 auto;
-            margin-bottom: 50px;
-            display: block;
-            width: max-content;
-            background-color: $yellow;
-            color: $black;
-            font-weight: 600;
-            font-size: 14px; */
-/* 
+
+ 
     img{
             width: 50px;
             height: 50px;
             padding: 0px;
-    }  */
+    }  
   }
 }
     .info-grants-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        text-align: center;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                text-align: center;
 
-    .applybox {
-        display: flex;
-        height: 100px;
-        flex-basis: 100%;
-        background-color: $yellow;
-        justify-content: center;
-    }
-    .grantbox {
-        display: flex;
-        height: 100px;
-        flex: 40%;
-        background-color: $yellow;
-        justify-content: center;
-     }
+            .applybox {
+                display: flex;
+                height: 100px;
+                flex-basis: 100%;
+                background-color: $yellow;
+                justify-content: center;
+            }
+            .grantbox {
+                display: flex;
+                height: 100px;
+                flex: 40%;
+                background-color: $yellow;
+                justify-content: center;
+            }
    
+        }
+        }
     }
-}
-   
-}
