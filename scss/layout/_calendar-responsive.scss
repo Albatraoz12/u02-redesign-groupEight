@@ -4,12 +4,28 @@
     position: relative;
     padding-bottom:300px;
 
+    .kalendarium-body{
+
+    .kalendarium-intro{
+      h1{
+        @include h1-desktop;
+      }
+      .kalendarium-breadcrumb{
+      @include breadcrumb;
+     }
+    }
+
     .card{
       width: 60%;
+      &__header{
+        justify-content: space-evenly;
+      }
+    
     }
     .kalender-kort-body{
       width: 20%;
       height: 500px;
     }
   }
+}
 }
