@@ -1,0 +1,15 @@
+@include media-lg{
+
+  .calendar-body{
+    position: relative;
+    padding-bottom:300px;
+
+    .card{
+      width: 60%;
+    }
+    .kalender-kort-body{
+      width: 20%;
+      height: 500px;
+    }
+  }
+}
