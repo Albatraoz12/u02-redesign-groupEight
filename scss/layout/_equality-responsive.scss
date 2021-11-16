@@ -5,6 +5,8 @@
     .equality-wrapper {
       h1 {
         @include h1-desktop;
+        font-size: 38px;
+        //margin-top: 25px;
 
       }
 
