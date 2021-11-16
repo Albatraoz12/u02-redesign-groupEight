@@ -1,0 +1,43 @@
+.international-body {
+  position: relative;
+  padding-bottom: 300px;
+
+  .international-wrapper {
+    @include paragraf;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+    .international-breadcrumbs {
+      @include breadcrumb;
+    }
+
+    .button {
+      @include button(2rem);
+      margin-top: 2rem;
+    }
+
+    h1 {
+      @include h1-mobile;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .international-bold-text {
+      font-weight: 600;
+      padding-top: 3rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .international-link {
+      display: flex;
+      justify-content: space-between;
+      color: $black;
+    }
+  }
+}

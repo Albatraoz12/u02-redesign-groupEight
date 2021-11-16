@@ -1,9 +1,33 @@
+// Home Responsive
 @include media-lg {
+    .home-body{
+        position: relative;
+        padding-bottom: 250px;
 
-        .home-main {
+        .home__main {
+            // width: 100vw;    
 
-            .button {
-                // color:#000000;
+            .main__article{
+                .main__intro__container{
+                    height: 60vh;
+                    .main__paragraph{
+                        font-size: 2rem;
+                    }
+                }
             }
-        }
+            .home__sections__white{
+                width: 60%;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+            .home__sections__darkgreen{
+                margin: 0 auto;
+                .main__kalendarium{
+                    width: 60%;
+                    max-width: 800px;
+                    margin: 0 auto;
+                }
+            }
+        }  
+    }
 }

@@ -1,0 +1,25 @@
+@include media-lg {
+
+    .government-body {
+
+        .government-wrapper {
+
+            .government-text-wrapper {
+                width: 60%;
+
+                h1 {
+                    @include h1-desktop;
+                   }
+            }
+
+            .button{
+                @include button(6rem);
+            }
+            
+
+
+
+        }
+    }
+
+}

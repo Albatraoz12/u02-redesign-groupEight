@@ -5,15 +5,8 @@
 
     .government-breadcrumbs{
 
-        font-weight: 600;
-        font-size: 12px;
-        padding: 20px 40px;
-
-        & > *{
-            text-decoration: none;
-            color: $black;
-            
-        }
+        @include breadcrumb;
+        align-self: flex-start;
 
         & a:hover {
             color: $yellow;
@@ -50,13 +43,10 @@
         
         .button {
             // color: yellow;
-            @include button(40px, 10px);
-            text-align: center;
-            border-radius: 15px;
-            display: block;
-            width: 300px;
-            margin: 50px auto;
+            @include button(2rem);
 
+
+            
             &:hover {
                 color: $darkGreen;
                 background-color: bisque;
@@ -68,13 +58,20 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+            width: 90%;
+                
+            h1, h2 {
+                margin: 20px 0;
+                text-align: center;
+            }
+
+            h1 {
+                @include h1-mobile;
+            }
 
             p {
-                margin: 20px 0px;
-                width: 100%;
-                font-size: 18px;
-                
+                @include paragraf;
+                width: 100%;             
             }
         }
 
