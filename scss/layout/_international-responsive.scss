@@ -1,0 +1,19 @@
+@include media-lg {
+  .international-body {
+    .international-wrapper {
+      width: 60%;
+      margin: 0 auto;
+
+      .international-bold-text {
+        padding-top: 10rem;
+      }
+
+      .button {
+        margin-bottom: 10rem;
+      }
+      h1 {
+        @include h1-desktop;
+      }
+    }
+  }
+}
