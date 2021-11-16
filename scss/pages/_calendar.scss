@@ -3,12 +3,17 @@
   padding-bottom:300px;
 
   .kalendarium-body{
-
-
+    display: flex;
+    flex-direction: column;
+  
   .kalendarium-intro{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
       .kalendarium-breadcrumb{
+      //  align-self: flex-start;
        @include breadcrumb;
       }
       h1{
@@ -26,7 +31,7 @@
       display: grid;
       grid-template-rows: 8rem auto 10rem;
       border-radius: 20px;
-      // box-shadow: 0 1rem 2.5rem rgb(27,64,94);
+      box-shadow: 0 1rem 2.5rem rgb(27,64,94);
 
       &__header{
         padding: 0 20px;
@@ -137,6 +142,7 @@
         font-size: 15px;
       }
       p{
+        // @include paragraf;
         margin: 10px;
         font-size: 13px;
       }
