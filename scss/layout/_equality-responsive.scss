@@ -1,0 +1,18 @@
+@include media-lg {
+ 
+   .equality-body {
+ 
+       .equality-wrapper {
+           h1 {
+               @include h1-desktop;
+              }
+ 
+           .equality-text-wrapper {
+              
+               /*width: 60%;*/
+ 
+         
+       }
+   }
+}
+}
