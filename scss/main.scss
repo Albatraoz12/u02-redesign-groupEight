@@ -7,24 +7,49 @@
   // font-family: 'Poppins', sans-serif;
 }
 
+//Alla abstracts skall ligga här under
 @import './abstracts/variables';
 @import './abstracts/mixins';
 
+//Alla layout skall ligga här under
 @import './layout/nav';
 @import './layout/header';
 @import './layout/footer';
+
 //Alla pages skall ligga här under
 @import './pages/home';
+@import './pages/kontakt';
+@import './pages/about';
+
 @import './pages/vara-samarbeten';
+/*@import './pages/equality';*/
+@import './pages/economics';
+@import './pages/grants';
+@import './pages/equality';
 @import './pages/economics';
 @import './pages/government';
+@import './pages/equality';
+@import './pages/nyheter';
+@import './pages/economics';
+@import './pages/international';
+@import './pages/calendar';
 
 //All responsivitet skall ligga här!
 @import './layout/responsive';
 @import './layout/home-responsive';
+@import './layout/kontakt-responsive';
+@import './layout/about-responsive';
+
 @import './layout/vara-samarbeten-responsive';
 @import './layout/eco-responsive';
 @import './layout/gov-responsive';
+@import './layout/equality-responsive';
+@import './layout/eco-responsive';
+@import './layout/grants-responsive';
+@import './layout/international-responsive';
+@import './layout/calendar-responsive';
+
+
 
 
 
