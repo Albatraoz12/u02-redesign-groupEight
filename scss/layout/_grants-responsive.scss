@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-.grants-body {
-    position: relative;
-    padding-bottom:300px;
-}
-=======
 @include media-lg {
   .grants-body {
+    position: relative;
+    padding-bottom: 300px;
     .grants-main {
       .grants-text-wrapper {
         h1 {
@@ -52,4 +48,3 @@
     }
   }
 }
->>>>>>> main

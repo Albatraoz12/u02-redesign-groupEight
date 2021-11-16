@@ -1,0 +1,39 @@
+@include media-lg {
+    .publications-body {
+
+        .publications-main {
+
+            .publications-text-wrapper1 {
+                max-width: 650px;
+
+                .publications-title {
+                    font-size: 48px;
+                }
+
+                .publications-wrapper {
+
+                    .publication-card-wrapper {
+                        max-width: 575px;
+
+                        a {
+
+                            .publication-card {
+                                width: 172px;
+                                height: 150px;
+                                padding: 0.5rem;
+
+                                .card-title {
+                                    margin-bottom: 0.3rem;
+                                }
+                                    
+                                .card-text {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
