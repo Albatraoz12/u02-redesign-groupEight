@@ -1,0 +1,80 @@
+.government-body{
+
+    position: relative;
+    padding-bottom: 300px;
+
+    .government-breadcrumbs{
+
+        @include breadcrumb;
+        align-self: flex-start;
+
+        & a:hover {
+            color: $yellow;
+        }
+    }
+
+    .government-wrapper {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        h1, h2 {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 38px;
+        }
+
+       
+
+        a {
+            text-decoration: none;
+            color: $black;
+
+            &:hover {
+                color: $yellow;
+            }
+        }
+
+        
+        .button {
+            // color: yellow;
+            @include button(2rem);
+
+
+            
+            &:hover {
+                color: $darkGreen;
+                background-color: bisque;
+            }
+
+        }
+
+        .government-text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+                
+            h1, h2 {
+                margin: 20px 0;
+                text-align: center;
+            }
+
+            h1 {
+                @include h1-mobile;
+            }
+
+            p {
+                @include paragraf;
+                width: 100%;             
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,45 @@
+// Desktop (mobile first)
+@include media-lg {
+
+    .kontakt-body{
+        
+        .kontakt__main{      
+
+            .breadcrumb{
+
+                margin-bottom: 3rem;
+                font-size: 12px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+                @include breadcrumb;
+            }
+
+            .kontakt__generalinfo{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: minmax(1%, auto);  
+                grid-template-areas: 
+                    "kontakt__partialinfo     kontakt__iframe";
+
+                .kontakt__partialinfo{
+                    grid-area: kontakt__partialinfo;
+                }
+                .kontakt__iframe{
+                    grid-area: kontakt__iframe;
+                    width: 90%;
+                    height: 100%;
+
+                }
+            }
+
+            .button{
+                // color:#000000;
+            }
+            
+        }
+    }
+}

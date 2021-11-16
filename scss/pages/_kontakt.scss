@@ -1,0 +1,50 @@
+// Kontakt
+.kontakt-body{
+    position: relative;
+    padding-bottom: 300px;
+    
+    .kontakt__main{
+        // width: 100vw;
+        margin: 40px;
+        //90%
+        .button {
+            // color: yellow;
+            @include button(40px);
+        }
+        .breadcrumb{
+            margin-bottom: 3rem;
+            font-size: 12px;
+            a {
+                text-decoration: none;
+                color: $black;
+                font-weight: 600;
+                font-size: 12px;
+            }
+        }
+        .h1{
+            @include h1-mobile;
+        }
+        .h2{
+            @include h2-mobile;
+        }
+        .main__article{
+            .kontakt__generalinfo{
+                .kontakt__p{
+                    @include paragraf;                    
+                }
+                .kontakt__address{
+                    @include paragraf;
+                    
+                }
+                .kontakt__a{
+                    @include paragraf;
+                }
+            }
+            .kontakt__hittahit{
+                @include paragraf;
+                margin-top: 50px;
+            }
+        }
+    }
+
+} 

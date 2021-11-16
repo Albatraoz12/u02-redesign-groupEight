@@ -1,0 +1,95 @@
+.grants-body {
+  position: relative;
+  padding-bottom: 300px;
+
+  .grants-main {
+    .grants-text-wrapper {
+      padding: 2rem 2rem;
+
+      .grants-breadcrumb {
+        @include breadcrumb;
+      }
+
+      p {
+        @include paragraf;
+      }
+      h2 {
+        padding-bottom: 10px;
+      }
+
+      h1 {
+        @include h1-mobile;
+      }
+    }
+
+    .divider {
+      height: 60px;
+      width: 100%;
+      margin: 20px 0;
+      background-color: $darkGreen;
+    }
+
+    .grants-catergories {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+
+      .grants-box-style {
+        display: flex;
+        margin: 20px;
+        flex-direction: row;
+        justify-content: flex-start;
+        -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+        box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+        max-width: 600px;
+
+        .grants-content {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding-top: 10px;
+        }
+
+        .applyhere-button {
+          @include button(1rem);
+          display: flex;
+          justify-content: center;
+          padding-right: 20px;
+          margin: 10px 50px;
+        }
+      }
+    }
+  }
+  .info-grants-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+    padding: 15px;
+
+    .more-info {
+      justify-self: center;
+      padding: 20px 10px;
+      width: 100%;
+    }
+
+    .applybox {
+      display: flex;
+      height: 100px;
+      padding-top: 25px;
+      flex-basis: 100%;
+      background-color: $yellow;
+      justify-content: center;
+    }
+    .grantbox {
+      display: flex;
+      justify-content: center;
+      padding-top: 25px;
+      height: 100px;
+      flex: 40%;
+      background-color: $yellow;
+      justify-content: center;
+    }
+  }
+}

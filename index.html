@@ -10,14 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./scss/dist/css/main.css" />
+    <link rel="stylesheet" href="./scss/dist/css/main.css"/>
     <title>Konstnärsnämnden</title>
   </head>
-  <body>
+
+  <body class="home-body">
     <header>
       <div class="header-left">
-        <a href=""
-          ><img
+        <a href="#">
+          <img
             class="desktop-logo"
             src="./scss/dist/images/logo-desktop.png"
             alt="Konstnärsmändens logo"
@@ -35,18 +36,18 @@
           alt="uk flag"
         />
         <input class="desktop-header-input" type="text" />
-        <a href="#"
-          ><img class="search" src="./scss/dist/images/search.png" alt=""
+        <a href="#">
+          <img class="search" src="./scss/dist/images/search.png" alt=""
         /></a>
       </div>
     </header>
-
+    
     <nav class="nav">
-      <a href=""
-        ><img class="logo" src="./scss/dist/images/logo.png" alt=""
+      <a href="#">
+        <img class="logo" src="./scss/dist/images/logo.png" alt=""
       /></a>
 
-      <!----------------------------------MOBILE MENU----------------------------------------->
+      <!--MOBILE MENU-->
       <div class="hamburger">
         <input class="hamburger__checkbox" type="checkbox" />
         <span class="hamburger__lines"></span>
@@ -123,9 +124,9 @@
           </li>
         </ul>
       </div>
-      <!----------------------------------MOBILE MENU END----------------------------------------->
+      <!-- MOBILE MENU END -->
 
-      <!-- --------------------------------DESKTOP MENU---------------------------------------- -->
+      <!-- DESKTOP MENU -->
       <ul class="menu-desktop">
         <li class="menu-desktop-item">
           <a href="#"> Om oss </a
@@ -381,7 +382,7 @@
         </li>
         <li class="menu-desktop-item"><a href="#">Kontakt</a></li>
       </ul>
-      <!-- --------------------------------DESKTOP MENU END---------------------------------------- -->
+      <!--DESKTOP MENU END -->
       <ul class="sub-menu">
         <li class="sub-menu-item">
           <a class="sub-menu-item__link" href="#">Tillbaka</a>
@@ -427,6 +428,204 @@
         </li>
       </ul>
     </nav>
+
+    <main class="home__main">
+
+      <article class="main__article">
+
+        <section class="main__intro__container">
+          <h2 class="h2" style="display: none;">Introduktion till hem</h2>
+          <p class="main__paragraph">
+            Konstnärsnämnden stödjer professionella konstnärers arbete, utveckling och internationella kontakter
+          </p>
+          <img class="main__img__statue" src="/scss/dist/images/home-statue.jpg" alt="Visar en staty av 3 personer" width="100">
+          <!-- <div class="main__intro__grey"></div> -->
+        </section>
+
+        <br>
+        <br>
+
+        <h1 class="h1">Aktuellt</h1>
+
+        <div class="home__sections__white">
+          <div class="home__sections__container">
+
+            <section class="main__aktuellt">
+              <h3 class="h3">2021 års Ganneviksstipendiater</h3>
+              <div class="artists__image">
+                <img class="main__aktuellt__artists" src="scss/dist/images/home-artists.PNG" alt="Visar flera artister" width="100">
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+            </section>
+    
+            <section class="main__oppnaansokningar"> 
+              <h2 class="h2">Öppna ansökningar</h2>
+    
+              <div class="main__card__container">
+                <!-- <div class="main__card__image"> -->
+                  <img src="scss/dist/images/home-musik.jpg" alt="Visar en person som spelar gitarr" class="main__musik__img" width="100">
+                <!-- </div> -->
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2">Musik</h2> 
+                  <!-- <button type="button" class="main__button__card">Ansök här</button> -->
+                  <a class="main__button__card" href="#" title="Går till ansök">Ansök här</a>    
+                </div>    
+              </div>
+    
+              <div class="main__card__container">
+                <!-- <div class="main__card__image"> -->
+                  <img src="/scss/dist/images/home-bildform.jpg" alt="Visar en person som målar" class="main__musik__img" width="100">
+                <!-- </div> -->
+    
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2">Bild & form</h2> 
+                  <!-- <button type="button" class="main__button__card">Ansök här</button>       -->
+                  <a class="main__button__card" href="#" title="Går till ansök">Ansök här</a>   
+                </div>    
+              </div>
+              <!-- <button type="button" class="main__button__kategonyheter">Se fler kategorier</button> -->
+              <a class="main__button__card" href="#" title="Går till fler kategorier">Se fler kategorier</a>      
+              <br>
+              <br>
+              <br>
+              <br>    
+            </section>            
+
+            <section class="main__senastenytt">
+              <h2 class="h2">Senaste nytt</h2>
+    
+              <div class="main__card__container">
+                <!-- <div class="main__card__image"> -->
+                  <img src="scss/dist/images/home-watch.jpg" alt="Visar en klocka" class="main__card__img" width="100">
+                <!-- </div> -->
+    
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2">Ändrade öppertider</h2> 
+                  <!-- <button type="button" class="main__button__card">Läs mer</button> -->
+                  <a class="main__button__card" href="#" title="Går till läs mer">Läs mer</a>   
+                </div>    
+              </div>
+    
+              <div class="main__card__container">
+                <!-- <div class="main__card__image"> -->
+                  <img src="scss/dist/images/home-laptop.jpg" alt="Visar en bärbar dator och en person" class="main__card__img" width="100">
+                <!-- </div> -->
+    
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2 beslut-extra">Beslut om extra arbetsstipendier</h2> 
+                  <!-- <button type="button" class="main__button__card">Läs mer</button>    -->
+                  <a class="main__button__card" href="#" title="Går till läs mer">Läs mer</a>     
+                </div>    
+              </div>
+              <!-- <button type="button" class="main__button__kategonyheter">Gå till nyheter</button>       -->
+              <a class="main__button__card" href="news.html" title="Går till nyheter">Gå till nyheter</a> 
+              <br>
+              <br>  
+            </section>
+          </div>
+        </div>
+        
+        <div class="home__sections__darkgreen">  
+          <br>
+          <br>
+          <div class="home__sections__darkgreen--wrapperresponsive">
+            <section class="main__kalendarium">
+              <h2 class="h2">Kalendarium</h2>
+  
+              <div class="main__card__container">
+                <!-- <div class="main__card__image"> -->
+                  <img src="/scss/dist/images/home-earth-planet.jpg" alt="Visar en jordplanet" class="main__card__img" width="100">
+                <!-- </div> -->
+  
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2 ">Cross pollination</h2> 
+                  <!-- <button type="button" class="main__button__card">Gå till event</button>     -->
+                  <a class="main__button__card" href="#" title="Går till event">Gå till event</a>   
+                </div>    
+              </div>
+  
+              <div class="main__card__container">
+                <!-- <div class="main__card__image"> -->
+                  <img src="/scss/dist/images/home-art-exhibition.jpg" alt="Visar en tavla" class="main__card__img" width="100">
+                <!-- </div> -->
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2 beslut-extra">Beslut om extra arbetsstipendier</h2> 
+                  <!-- <button type="button" class="main__button__card">Gå till event</button>  -->
+                  <a class="main__button__card" href="#" title="Går till event">Gå till event</a>   
+                </div>    
+              </div>
+  
+              <div class="main__card__container">
+
+                <!-- <div class="main__card__image"> -->
+                  <img src="/scss/dist/images/home-film.jpg" alt="Visar bio" class="main__card__img" width="100">
+                <!-- </div> -->
+
+                <div class="main__card__content">      
+                  <h2 class="main__card__h2">Film Festival</h2> 
+                  <!-- <button type="button" class="main__button__card">Gå till event</button>       -->
+                  <a class="main__button__card" href="#" title="Går till event">Gå till event</a>   
+
+                </div>    
+              </div>
+  
+              <!-- <button type="button" class="main__button__kategonyheter">Gå till kalender</button>         -->
+              <a class="main__button__card" href="calendar.html" title="Går till kalender">Gå till kalender</a>   
+              <br>
+              <br>
+            </section>
+  
+            <section class="main__nyhetsbrev">
+                <h2 class="h2">Nyhetsbrev</h2>
+  
+                <form class="form__main" id="form__main" action="#" method="post">
+                  <label for="fornamn">*Förnamn</label>
+                  <br>
+                  <input class="fornamn" id="fornamn" type="text" name="fornamn" required placeholder="Skriv ditt förnamn här" title="Ange endast bokstäver och 2-16 tecken." pattern=" ^[a-öA-Ö]{2,16}$">
+                  <br>
+                  
+                  <label for="efternamn">*Efternamn</label>
+                  <br>
+                  <input id="efternamn" class="efternamn" type="text" name="efternamn" required placeholder="Skriv ditt efternamn här" title="Ange endast bokstäver och 2-16 tecken." pattern=" ^[a-öA-Ö]{2,16}$">
+                  <br>
+  
+                  <label for="epost">*E-postadress</label>
+                  <br>
+                  <input id="epost" type="email" name="epost" placeholder="email@domain.com" required title="Ange ett e-postmeddelande i följande format: username@domain.com" pattern="^[a-zA-Z0-9_.-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]+$">
+                  <br>
+                  <br>
+  
+                  <label id="form__main__infolabel" class="form__selector">Jag vill ha information om:</label>
+                  <select class="form__main__infolabel" id="information" name="information" aria-label="Information">
+                    <option value="info1">Info1</option>
+                    <option value="info2">Info2</option>
+                    <option value="info3">Info3</option>
+                    <option value="info4">Info4</option>
+                  </select>
+                  <br>
+                  <br>
+  
+                  <p id="inbjudning" class="form__inbjudning">Jag vill få inbjudningar till publik programverksamhet från: </p>
+                  <input type="checkbox" name="iaspis" id="iaspis">
+                  <label for="iaspis">IASPIS-programmet</label>         
+                  <br>
+                  <p class="form__obligatoryfields">* = Obligatoriska fält i formuläret</p>
+                </form>
+                <br>
+  
+                <button class="main__form__btn" form="form__main" type="submit" name="main-btn" value="submit">Prenumerera</button>
+            </section>
+          </div>
+
+        </div>
+      
+      </article>
+
+    </main>
+
     <footer>
       <div class="left-right-wrapper">
         <div class="footer-left">
@@ -473,5 +672,5 @@
         <p class="copyright">© Copyright 2021 groupEight</p>
       </div>
     </footer>
-  </body>
+  </body>  
 </html>
