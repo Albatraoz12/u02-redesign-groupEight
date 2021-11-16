@@ -8,7 +8,7 @@
    justify-content: center;
    align-items: center;
    gap: 20px;
-  
+
   .kalendarium-intro{
     display: flex;
     flex-direction: column;
@@ -30,7 +30,8 @@
       list-style: none;
     }
     .card{
-      background-color: $darkGreen;
+      // background-color: $darkGreen;
+      background-color: $lightGreen;
       width: 90%;
       margin: 1rem auto;
       display: grid;
@@ -39,8 +40,10 @@
       box-shadow: 0 1rem 2.5rem rgb(27,64,94);
 
       &__header{
+        // background-color: $lightGreen;
+        background-color: $darkGreen;
         padding: 0 20px;
-        color: grey;
+        color: #c4c4c4;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -117,7 +120,7 @@
       }
       &__footer{
         @extend .card__header;
-        color: black;
+        color: #c4c4c4;
         font-weight: bold;
         .add{
           text-decoration: none;
@@ -132,12 +135,20 @@
         }
       }
     }
+
+    .skew-background{
+  // vänta tills slutet för clip path
+  //  clip-path: polygon(0% 70%, 100% 70%, 100% 100%, 0% 100%);
+  //  background-color: $darkGreen;
+  
     .kalender-kort-body{
       background-color: #EBF0EE;
       border-radius: 20px;
       width: 90%;
       height: 400px;
       margin: 1rem auto;
+     
+    
 
       .presentation-img{
         width: 100%;
@@ -162,5 +173,6 @@
       }
 
     }
-  }  
+  } 
+ } 
 }
