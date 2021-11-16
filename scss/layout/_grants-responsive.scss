@@ -1,32 +1,48 @@
 @include media-lg {
-
-    .grants-body {
-
-        .grants-wrapper {
-            height: 100vh;
-            gap: 30px;
-            margin: 0 auto;
-            width: 70%;
-
-            .grants-catergories {
-                font-size: 48px;
-                margin-bottom: 10px;
-            }
-
-            .grants-box-style {
-                height: 60px;
-                width: 500px;
-            }
-
-            .info-grants-container {
-                width: 306px;
-                width: 520px;
-            }
-
-            .grants-breadcrumb {
-               
-              margin: 20px 0 0 20px;
-            }
+  .grants-body {
+    .grants-main {
+      .grants-text-wrapper {
+        h1 {
+          @include h1-desktop;
         }
+      }
+
+      .grants-catergories {
+        margin-bottom: 10px;
+        align-items: center;
+        width: 100%;
+
+        .grants-box-style {
+          width: 600px;
+          margin: 0 auto;
+
+          .imgsize {
+            display: flex;
+            justify-content: flex-start;
+            height: 150px;
+            width: 150px;
+          }
+          .grants-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            p {
+              font-size: 28px;
+              margin-bottom: 1rem;
+            }
+            .applyhere-button {
+              @include button(3rem);
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .info-grants-container {
+        max-width: 60%;
+        margin: 0 auto;
+      }
     }
+  }
 }

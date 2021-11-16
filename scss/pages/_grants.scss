@@ -5,8 +5,8 @@
     .grants-main {
 
    
-        .grants-text-wrapper {
-         padding: 20px 40px;
+         .grants-text-wrapper {
+             padding: 2rem 2rem;
 
          .grants-breadcrumb {
             @include breadcrumb;
@@ -16,11 +16,13 @@
             @include paragraf;
         }
         h2 {
-            padding: 15px;
+            padding-bottom: 10px; 
+
             } 
     
         h1 {
                 @include h1-mobile;
+
         }
     
 }
@@ -36,38 +38,38 @@
     .grants-catergories {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
 
-   
+
 
     .grants-box-style {
-    display: flex;
-    margin: 20px;
-    flex-direction: row;
-    justify-content: flex-start;
-    -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
-    box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+            display: flex;
+            margin: 20px;
+            flex-direction: row;
+            justify-content: flex-start;
+            -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82);
+            box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.82); 
+            max-width: 600px;
 
-    .box1{
-        img{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-          }   
-          
-        } 
+            .grants-content {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding-top: 10px;
+            } 
 
-    .applyhere-button {
-      @include button(1rem);
-      display: flex;
-      justify-content: center;
-      padding-right: 20px;
-      margin: 10px 50px;
-    }
+            .applyhere-button {
+                @include button(1rem);
+                display: flex;
+                justify-content: center;
+                padding-right: 20px;
+                margin: 10px 50px;
+            } 
+
     
-}
+        }
+
     
   }
 }
@@ -77,6 +79,12 @@
                 gap: 15px;
                 text-align: center;
                 padding: 15px;
+
+                .more-info{
+                    justify-self: center;
+                    padding: 20px 10px;
+                    width: 100%;
+                }
 
             .applybox {
                 display: flex;
@@ -95,7 +103,10 @@
                 background-color: $yellow;
                 justify-content: center;
             }
+
    
         }
+
+     
         }
     
