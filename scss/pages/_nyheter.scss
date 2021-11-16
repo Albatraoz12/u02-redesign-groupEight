@@ -18,24 +18,17 @@
           @include h1-mobile;
           align-self: center;
         }
-
         h2{
           align-self: flex-start;
-        }
-  
+        }  
         .nyheter-breadcrumb{
           align-self: flex-start;
           @include breadcrumb;
-          margin-top: 2rem;
-          // font-size: 12px;
-          // margin-top: 10px;
-          // margin-left: 10%;
-          
-          a{
-            text-decoration: none;
-            color: $black;
-          }
-  
+          margin-top: 2rem;          
+            a{
+              text-decoration: none;
+              color: $black;
+            } 
       }
 
         .nyheter-kort-wrapper{
@@ -45,9 +38,7 @@
           align-items: center;
           width: 90%;
           gap: 30px;
-        }
-
-      
+        }      
       }
 
     .nyheter-kort{
@@ -57,14 +48,6 @@
       width: 90%;
       margin: 2rem auto;
 
-        // .nyheter-dag{
-        //   background-color: white;
-        //   display: block;
-        //   border-radius: 50%;
-        //   height: 10px;
-        //   width: 40px;
-        //   z-index: 1;
-        // }
         .kort-heading{
           display: inline-block;
           margin: 5px;
