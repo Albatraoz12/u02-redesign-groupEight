@@ -91,18 +91,18 @@
     }
 }
 //Media queries
-// @mixin media-md {
-//     @media screen and (min-width: 768px) {
-//         @content;
-//     }
-// }
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
 @mixin media-lg {
     @media screen and (min-width: 1024px) {
         @content;
     }
 }
 
-// Behövs kanske inte anpassas
+//Behövs kanske inte anpassas
 @mixin media-xl {
     @media screen and (min-width: 1600px) {
         @content;

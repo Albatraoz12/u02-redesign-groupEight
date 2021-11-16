@@ -1,0 +1,82 @@
+.analys-body {
+    position: relative;
+    padding-bottom: 300px;
+
+    .analys-main {
+        
+        .analys-text-wrapper1, .analys-text-wrapper2 {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+
+            .analys-breadcrumb {
+                margin-bottom: 3rem;
+                font-size: 12px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+            }
+
+            .analys-title {
+                margin-bottom: 3rem;
+                font-weight: bold;
+                text-align: center;
+                font-size: 28px;
+            }
+
+            .analys-sub-title1, .analys-sub-title2 {
+                margin: 2rem 0;
+            }
+
+            .analys-paragraph {
+                font-family: $font;
+                letter-spacing: 1px;
+                line-height: 1.8;
+                font-size: 18px;
+                padding-bottom: 2rem;
+            }
+        }
+
+        .analys-text-wrapper1 {
+
+            .analys-paragraph-3 {
+                margin-top: 2rem;
+            }
+
+            .analys-button1 {
+                background-color: $yellow;
+                padding: 0.9rem 4rem;
+                text-decoration: none;
+                color: $black;
+                font-weight: 600;
+                border-radius: 30px;
+                margin: 0 auto;
+            }
+        }
+
+        .analys-seperator {
+            height: 50px;
+            width: 100%;
+            background-color: $darkGreen;
+            margin-bottom: 1rem;
+        }
+
+        .analys-text-wrapper2 {
+
+            .analys-button2 {
+                background-color: $yellow;
+                padding: 0.9rem 2rem;
+                text-decoration: none;
+                color: $black;
+                font-weight: 600;
+                border-radius: 30px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
