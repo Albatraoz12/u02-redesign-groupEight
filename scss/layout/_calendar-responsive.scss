@@ -1,0 +1,34 @@
+@include media-lg{
+
+  .calendar-body{
+    position: relative;
+    padding-bottom:300px;
+
+    .kalendarium-wrapper{
+
+    .kalendarium-intro{
+      h1{
+        @include h1-desktop;
+      }
+      .kalendarium-breadcrumb{
+      @include breadcrumb;
+     }
+    }
+
+    .card{
+      width: 60%;
+      &__header{
+        justify-content: space-evenly;
+      }
+    
+    }
+    .skew-background{
+
+    .kalender-kort-body{
+      width: 40%;
+      height: 500px;
+    }
+  }
+  }
+}
+}
