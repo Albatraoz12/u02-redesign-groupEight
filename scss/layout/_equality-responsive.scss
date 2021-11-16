@@ -1,18 +1,25 @@
 @include media-lg {
- 
-   .equality-body {
- 
-       .equality-wrapper {
-           h1 {
-               @include h1-desktop;
-              }
- 
-           .equality-text-wrapper {
-              
-               /*width: 60%;*/
- 
-         
-       }
-   }
+  .equality-body {
+
+    .equality-main{
+    .equality-wrapper {
+      h1 {
+        @include h1-desktop;
+
+      }
+
+      p{
+          /* font-size: 28px;
+          margin-bottom: 1rem; */
+          padding-top: 25px;
+      }
+      
+    }
+
+    .equality-button1 {
+        @include button(3rem);
+        margin-bottom: 0;
+  }
+}
 }
 }
