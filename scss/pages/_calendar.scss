@@ -13,7 +13,6 @@
     align-items: center;
 
       .kalendarium-breadcrumb{
-      //  align-self: flex-start;
        @include breadcrumb;
       }
       h1{
