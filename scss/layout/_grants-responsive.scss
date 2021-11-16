@@ -1,4 +1,55 @@
+<<<<<<< HEAD
 .grants-body {
     position: relative;
     padding-bottom:300px;
 }
+=======
+@include media-lg {
+  .grants-body {
+    .grants-main {
+      .grants-text-wrapper {
+        h1 {
+          @include h1-desktop;
+        }
+      }
+
+      .grants-catergories {
+        margin-bottom: 10px;
+        align-items: center;
+        width: 100%;
+
+        .grants-box-style {
+          width: 600px;
+          margin: 0 auto;
+
+          .imgsize {
+            display: flex;
+            justify-content: flex-start;
+            height: 150px;
+            width: 150px;
+          }
+          .grants-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            p {
+              font-size: 28px;
+              margin-bottom: 1rem;
+            }
+            .applyhere-button {
+              @include button(3rem);
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .info-grants-container {
+        max-width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+>>>>>>> main

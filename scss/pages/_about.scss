@@ -1,0 +1,171 @@
+.about-body {
+  position: relative;
+  padding-bottom: 300px;
+
+  .about-main {
+    width: 70%;
+    margin: 0 auto;
+
+
+
+     h1 {
+    margin-bottom: 3rem;
+      font-weight: bold;
+      text-align: center;
+      font-size: 24px;
+    } 
+
+    h2 {
+      text-align: center;
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .about-paragraph {
+      font-family: $font;
+      letter-spacing: 1px;
+      line-height: 1.8;
+      font-size: 18px;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+    }
+
+    .about-breadcrumb {
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+      font-size: 12px;
+      a {
+        text-decoration: none;
+        color: $black;
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+
+    .about-icon-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      font-size: 14px;
+      padding-top: 10%;
+      padding-bottom: 10%;
+
+      .about-international,
+      .about-government,
+      .about-equality,
+      .about-analysis,
+      .about-economics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+        img {
+          padding-left: 30%;
+          height: 44px;
+        }
+        #about-eco-pic {
+          padding-left: 35%;
+        }
+
+        a {
+          text-decoration: none;
+          color: $black;
+        }
+      }
+    }
+    .about-pictures {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-bottom: 2rem;
+      gap: 2rem;
+
+      .about-colleagues {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262.5px;
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/colleagues.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about-paperboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262.5px;
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/paperboard.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about-whiteboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262.5px;
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/whiteboard.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about-ipadman {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262.5px;
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("../images/ipadman.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about-images-text {
+        text-align: center;
+        font-size: 14px;
+        padding: 1rem;
+      }
+    }
+  }
+}
