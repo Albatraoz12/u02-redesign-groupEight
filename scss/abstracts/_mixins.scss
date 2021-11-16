@@ -46,7 +46,7 @@
     text-align: center;
     font-size: 28px;
 }
-//h1-desktop
+//h1
 @mixin h1-desktop {
     margin-bottom: 3rem;
     font-weight: bold;
@@ -54,18 +54,39 @@
     font-size: 48px;
 }
 
-//h2
-
+// h2-small jtt
+@mixin h2-mobile {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+// h2-large jtt
+@mixin h2-desktop {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+// h3 small jtt
+@mixin h3-mobile {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
 //breadcrumbs
 @mixin breadcrumb {
     margin-bottom: 3rem;
-                font-size: 12px;
-                a {
-                    text-decoration: none;
-                    color: $black;
-                    font-weight: 600;
-                    font-size: 12px;
-                }
+    font-size: 12px;
+    a {
+        text-decoration: none;
+        color: $black;
+        font-weight: 600;
+        font-size: 12px;
+    }
 }
 //Media queries
 // @mixin media-md {

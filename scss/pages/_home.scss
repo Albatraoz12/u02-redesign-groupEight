@@ -1,12 +1,190 @@
 // Home
 .home-body{
+    // background-color: red;
     position: relative;
-    padding-bottom: 300px;
-    .home-main {
-        width: 100vw;
-        .button {
+    padding-bottom: 250px;
+
+    .home__main {
+        // width: 100vw;
+        
+        .main__button__card {
             // color: yellow;
-            @include button(40px, 10px);
+            // @include button(40px, 10px);
+            @include button(1rem);
+            margin-bottom: 0.7rem;
+        }
+
+        .main__intro__container{
+            height: 100vh;
+            position: relative;
+            background-color: black;
+
+            .main__paragraph{
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: 10;
+                transform: translate(-50%, -60%);
+                color: white;
+                @include paragraf;
+                font-size: 5vw;
+                text-shadow: 1px 1px 1px black;
+            }
+            .main__img__statue{
+                width: 100%;
+                height: 100%;
+                opacity: 0.6;
+                object-fit: cover;
+            }
+            // .main__intro__grey{
+            //     width: 100%;
+            //     height: 30px;
+            //     background-color: rgb(235, 241, 240)
+            // }
+        }
+        .h1{
+            @include h1-mobile;
+        }
+        .h2{
+            @include h2-mobile;
+        }
+        .h3{
+            @include h3-mobile;
+        }
+        .home__sections__container{
+            padding: 28px;
+        }
+        .home__sections__white{
+            background-color: white;
+        }        
+        .home__sections__darkgreen{
+            background-color: $darkGreen;
+            color: white;
+        }
+        .main__aktuellt{
+            margin-bottom: 30px;
+            .h3{
+                @include h3-mobile;
+            }
+            .artists__image{
+                display: flex;
+                .main__aktuellt__artists{
+                    width: 98%;
+                    height: 98%;
+                    margin: 0 auto;   
+                    justify-content: center;
+                    align-content: center;          
+                }
+            }
+        }
+        .main__oppnaansokningar{
+            width: 98%;
+            height: 50%;
+        }
+        .main__card__container{
+            box-shadow: 0.4px 1px 12px 0.8px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            // width: 98%;
+            // height: 50%;
+            display: flex;
+            justify-content: flex-start;
+            // .main__card__image{
+                // width: 30%;                
+                img{
+                    align-items: center;  
+                    width: 120px;
+                    height: 120px;         
+                    justify-content: center;
+                    align-items: center;
+                    object-fit: cover;
+                }
+            // }
+            .main__card__content{
+                display: flex;
+
+                // display: block;
+                flex-direction: column;
+                background-color: white;
+                color: black;
+                // width: 70%;
+                width: 100%;
+                // max-width: 600px;
+                justify-content: center;
+                align-items: center;    
+
+                .main__card__h2{
+                    @include paragraf;
+                    // justify-content: center;
+                    // align-items: center;
+                    text-align: center;
+                    padding-bottom: 0.4rem;
+                    font-weight: 400;
+                    
+                }
+                .beslut-extra{
+                    font-size: 1rem;
+                    // color: red;
+                }
+            }
+        }
+        .main__kalendarium{
+            padding: 28px;
+            .kalenda__h2{  
+                font-weight: 400;
+            }
+        }
+
+        .main__nyhetsbrev{
+            padding: 30px;
+            line-height: 50px;
+            @include paragraf;
+            
+            .form__main{
+                max-width: 600px;
+                margin: 0 auto;
+                label{
+                    padding-top: 30px;
+                }
+                input[type="text"]{                
+                    border-radius: 10px;
+                    line-height: 30px;
+                    width: 95%;
+                }
+                input[type="email"]{
+                    border-radius: 10px;
+                    line-height: 30px;
+                    width: 95%;
+                }
+                .form__main__infolabel{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border-width: thin;
+                }
+                .form__selector{
+                    // background-color: red;
+                    font-size: 1rem;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .form__inbjudning{
+                    font-size: 1rem;
+                }
+                
+            }
+            .form__obligatoryfields{
+                font-size: 1rem;
+                line-height: 50px;
+            }  
+            .main__form__btn{
+                @include button(40px);
+                border: none;
+                background-color: #66BC64;
+                cursor: pointer;
+            }
         }
     }
 }
