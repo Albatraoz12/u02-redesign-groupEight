@@ -2,8 +2,12 @@
   position: relative;
   padding-bottom:300px;
 
-  .kalendarium-body{
-   
+  .kalendarium-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
   
   .kalendarium-intro{
     display: flex;
