@@ -7,15 +7,40 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;      
-      gap: 20px;
+      flex-direction: column;
+
+      .figure-wrapper{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+
+        .coop-image{
+          height: 23px;
+          width: 220px;
+        }
+
+        .coop-image-stora{
+          height: 80px;
+          width: 206px;
+        }
+      }
+      .samarbeten-intro{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
         .samarbeten-heading{
-          font-size: 28px;
+          @include h1-mobile;
         }
         .samarbeten-breadcrumb{
-          margin: 10px 0 0 10px;
-          font-size: 12px;
+          @include breadcrumb;
           align-self: flex-start;
+          margin-top: 2rem;
         }
+      }
     }
   }
