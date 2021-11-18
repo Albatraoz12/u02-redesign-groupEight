@@ -4,12 +4,20 @@
     padding-bottom: 300px;
 
     .about-main {
-      width: 60%;
-      margin: 0 auto;
+      .about-content-wrapper {
+        width: 60%;
+        margin: 0 auto;
 
-      h1 {
-        @include h1-desktop;
+        h1 {
+          @include h1-desktop;
+        }
+  
+        h2 {
+          @include h2-desktop;  
+        }
       }
+
+      
     }
   }
 }
