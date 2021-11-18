@@ -3,12 +3,9 @@
     position: relative;
     padding-bottom: 300px;
     
-    .kontakt__main{
-        // width: 100vw;
+    .kontakt__main{ 
         margin: 40px;
-        //90%
         .button {
-            // color: yellow;
             @include button(40px);
         }
         .breadcrumb{
