@@ -31,21 +31,20 @@
     .equality-button1 {
       @include button(1rem);
 
+    }
 
-      .more-info {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
+    .more-info {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
 
-        h2 {
-          text-align: left;
-        }
-            
-
-        .links {    
-          text-decoration: none;
-          color: $black;
-        }
+      h2 {
+        text-align: left;
+      }
+          
+      .links {    
+        text-decoration: none;
+        color: $black;
       }
     }
   }
