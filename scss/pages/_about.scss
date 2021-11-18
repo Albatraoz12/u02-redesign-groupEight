@@ -17,12 +17,6 @@
 
     h2 {
       @include h2-mobile;
-
-      /* text-align: center;
-      padding-top: 4rem;
-      padding-bottom: 1rem;
-      font-weight: 600;
-      font-size: 20px; */
     }
 
     .about-paragraph {
@@ -37,13 +31,6 @@
     .about-breadcrumb {
       @include breadcrumb;
       margin-bottom: 80px;
-      /* font-size: 12px;
-      a {
-        text-decoration: none;
-        color: $black;
-        font-weight: 600;
-        font-size: 12px;
-      } */
     }
 
     .about-icon-wrapper {
