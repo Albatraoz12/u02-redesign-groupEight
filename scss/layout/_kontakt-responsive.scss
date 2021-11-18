@@ -15,34 +15,26 @@
                 @include breadcrumb;
             }
             .main__article{        
+                max-width: 70%;
+                margin: 0 auto;
+                .h1{
+                    @include h1-desktop;
+                }
                 .kontakt__generalinfo{
                     flex-direction: row;
-                    gap: 20px;  
-                    justify-content: space-between;
-                    align-items: center;                    
-                    // outline: 1px solid red;
-                    // background-color: red;              
-
-                    // display: grid;
-                    // grid-template-columns: repeat(2, 1fr);
-                    // grid-template-rows: minmax(1%, auto);  
-                    // grid-template-areas: 
-                    //     "kontakt__partialinfo     kontakt__iframe";
-                
-                    .kontakt__partialinfo{
-                        // grid-area: kontakt__partialinfo;
-                        // background-color: blue;
-                        // width: 50%;
-                    }
+                    gap: 10rem;  
+                    justify-content: flex-start;
                     .kontakt__iframe{
-                        // grid-area: kontakt__iframe;
-                        margin-left: 70px;   
-                        margin-right: 90px;   
-                        width: 100%;   
-                        width: 90%;   
+                        width: 800px; 
+                        height: 400px;
                     }                        
                 }    
-            }        
+            }  
+            .kontakt__hittahit{
+                .h2{
+                    @include h2-desktop;
+                }
+            }      
         }
     }
 }
