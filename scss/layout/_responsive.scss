@@ -1,18 +1,15 @@
 
-
-
-/*@include media-md {
-    
-}*/
-// @include media-md {
-    
-// }
-
 @include media-lg {
     header {
         display:flex;
+        position: sticky;
+        top: 0;
+        background-color: $white;
+        z-index: 3;
     }
     nav {
+        position: sticky;
+        top: 72px;
         .logo {
             display: none;
         }
@@ -32,6 +29,7 @@
             .menu-desktop-item {
                 color: #fff;
                 list-style: none;
+                position: relative;
 
                 a {
                     text-decoration: none;
@@ -39,30 +37,46 @@
                     font-weight: 600;
                 }
 
-                .sub-menu-desktop {
-                    display: none;
+                input {
+                    opacity: 0;
+                    height: 15px;
+                    width: 15px;
                 }
+
+                .menu-item__arrow {
+                    position: absolute;
+                    top: 5px;
+                    right: -1px;
+                    height: 3px;
+                    width: 10px;
+                    transform: rotate(-45deg);
+                    background-color: $white;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        right: 5px;
+                        top: -5.5px;
+                        width: 13px;
+                        height: 3px;
+                        transform: rotate(90deg);
+                        background-color: $white;
+                    }
+                }
+
+                .sub-menu-desktop {
+                    position: absolute;
+                    top: -70px;
+                    display: none;
+                    box-sizing: border-box;
+                }
+                
                 .menu-item__input1:checked ~ .sub-menu-desktop {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // // height: 200px;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
-                    
-                    // align-items: center;
-                    // justify-content: center;
-                    // gap:1.2rem;
-                    // font-size: 1.2rem;
-                    // font-weight: 600;
-                    // transform: translate(0, 26px);
+                    top:35px;
+                    left:-380px;
+                    z-index: 1;
+                    max-width: 99.5vw;
 
                     .sub-menu-desktop-item {
                         margin-bottom: 1rem;
@@ -80,36 +94,14 @@
                     display: none;
                     color: #fff;
                     list-style: none;
-
-/*                     .sub-menu-desktop2-item {
-                        &__link {
-
-                        } 
-                    } */
-
-                    
                 }
 
                 .menu-item__input2:checked ~ .sub-menu-desktop2 {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
-                    
-                    // align-items: center;
-                    // justify-content: center;
-                    // gap:1.2rem;
-                    // font-size: 1.2rem;
-                    // font-weight: 600;
-                    // transform: translate(0, 26px);
+                    top:35px;
+                    left:-487px;
+                    z-index: 1;
+                    max-width: 99.6vw;
 
                     .sub-menu-desktop2-item {
                         margin-bottom: 1rem;
@@ -127,37 +119,15 @@
                 .sub-menu-desktop3 {
                     display: none;
                     color: #fff;
-                    list-style: none;
-
-/*                     .sub-menu-desktop2-item {
-                        &__link {
-
-                        }
-                    } */
-
-                    
+                    list-style: none;  
                 }
 
                 .menu-item__input3:checked ~ .sub-menu-desktop3 {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
-                    
-                    // align-items: center;
-                    // justify-content: center;
-                    // gap:1.2rem;
-                    // font-size: 1.2rem;
-                    // font-weight: 600;
-                    // transform: translate(0, 26px);
+                    top:35px;
+                    left:-690px;
+                    z-index: 1;
+                    max-width: 99.6vw;
 
                     .sub-menu-desktop3-item {
                         margin-bottom: 1rem;
@@ -175,37 +145,15 @@
                 .sub-menu-desktop4 {
                     display: none;
                     color: #fff;
-                    list-style: none;
-
-/*                     .sub-menu-desktop2-item {
-                        &__link {
-
-                        }
-                    } */
-
-                    
+                    list-style: none;                    
                 }
 
                 .menu-item__input4:checked ~ .sub-menu-desktop4 {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
-                    
-                    // align-items: center;
-                    // justify-content: center;
-                    // gap:1.2rem;
-                    // font-size: 1.2rem;
-                    // font-weight: 600;
-                    // transform: translate(0, 26px);
+                    top:35px;
+                    left:-874px;
+                    z-index: 1;
+                    max-width: 99.6vw;
 
                     .sub-menu-desktop4-item {
                         margin-bottom: 1rem;
@@ -223,37 +171,15 @@
                 .sub-menu-desktop5 {
                     display: none;
                     color: #fff;
-                    list-style: none;
-
-/*                     .sub-menu-desktop5-item {
-                        &__link {
-
-                        }
-                    } */
-
-                    
+                    list-style: none;                   
                 }
 
                 .menu-item__input5:checked ~ .sub-menu-desktop5 {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
-                    
-                    // align-items: center;
-                    // justify-content: center;
-                    // gap:1.2rem;
-                    // font-size: 1.2rem;
-                    // font-weight: 600;
-                    // transform: translate(0, 26px);
+                    top:35px;
+                    left:-1024px;
+                    z-index: 1;
+                    max-width: 99.6vw;
 
                     .sub-menu-desktop5-item {
                         margin-bottom: 1rem;
@@ -271,30 +197,15 @@
                 .sub-menu-desktop6 {
                     display: none;
                     color: #fff;
-                    list-style: none;
-
-/*                     .sub-menu-desktop6-item {
-                        &__link {
-
-                        }
-                    } */
-
-                    
+                    list-style: none;                   
                 }
 
                 .menu-item__input6:checked ~ .sub-menu-desktop6 {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
+                    top:35px;
+                    left:-1179px;
+                    z-index: 1;
+                    max-width: 99.6vw;
 
                     .sub-menu-desktop6-item {
                         margin-bottom: 1rem;
@@ -313,27 +224,14 @@
                     display: none;
                     color: #fff;
                     list-style: none;
-
-                    // .sub-menu-desktop7-item {
-                    //     &__link {
-
-                    //     }
-                    // } 
                 }
 
                 .menu-item__input7:checked ~ .sub-menu-desktop7 {
                     @include checked-menu-item-desktop;
-                    // padding: 1rem;
-                    // position: absolute;
-                    // box-sizing: border-box;
-                    // top: 50px;
-                    // display: flex;
-                    // flex-wrap: wrap;
-                    // width: 100vw;
-                    // height: 150px;
-                    // left:0;
-                    // flex-direction: column;
-                    // background-color: #EBF0EE;
+                    top:35px;
+                    left:-1364px;
+                    z-index: 1;
+                    max-width: 99.6vw;
 
                     .sub-menu-desktop7-item {
                         margin-bottom: 1rem;
@@ -346,14 +244,8 @@
                             }
                         }
                     }
-                }
-
-                
+                }  
             }
         }
     }
-
-   /* footer {
-        font-size: 1.5rem;
-    }*/
 }

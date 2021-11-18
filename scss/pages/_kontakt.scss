@@ -3,12 +3,9 @@
     position: relative;
     padding-bottom: 300px;
     
-    .kontakt__main{
-        // width: 100vw;
+    .kontakt__main{ 
         margin: 40px;
-        //90%
         .button {
-            // color: yellow;
             @include button(40px);
         }
         .breadcrumb{
@@ -29,15 +26,22 @@
         }
         .main__article{
             .kontakt__generalinfo{
+                display: flex;
+                flex-direction: column;
                 .kontakt__p{
-                    @include paragraf;                    
+                    @include paragraf;                   
                 }
                 .kontakt__address{
-                    @include paragraf;
-                    
+                    @include paragraf;                    
                 }
                 .kontakt__a{
                     @include paragraf;
+                    color: $black;
+                }
+                .kontakt__iframe{
+                    margin: 0 auto;
+                    border: 1px ridge $darkGreen;
+                    box-shadow: 0.4px 1px 12px 0.8px rgba(0, 0, 0, 0.25);
                 }
             }
             .kontakt__hittahit{
@@ -46,5 +50,4 @@
             }
         }
     }
-
 } 
