@@ -5,7 +5,6 @@
   .grants-main {
     .grants-text-wrapper {
       padding: 2rem 2rem;
-      
 
       .grants-breadcrumb {
         @include breadcrumb;
@@ -58,40 +57,39 @@
           justify-content: center;
           padding-right: 20px;
           margin: 10px 50px;
-      
+        }
+      }
+    }
+    .info-grants-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      text-align: center;
+      padding: 15px;
+
+      .more-info {
+        justify-self: center;
+        padding: 20px 10px;
+        width: 100%;
+      }
+
+      .applybox {
+        display: flex;
+        height: 100px;
+        padding-top: 25px;
+        flex-basis: 100%;
+        background-color: $yellow;
+        justify-content: center;
+      }
+      .grantbox {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        height: 100px;
+        flex: 40%;
+        background-color: $yellow;
+        justify-content: center;
       }
     }
   }
-  .info-grants-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    text-align: center;
-    padding: 15px;
-
-    .more-info {
-      justify-self: center;
-      padding: 20px 10px;
-      width: 100%;
-    }
-
-    .applybox {
-      display: flex;
-      height: 100px;
-      padding-top: 25px;
-      flex-basis: 100%;
-      background-color: $yellow;
-      justify-content: center;
-    }
-    .grantbox {
-      display: flex;
-      justify-content: center;
-      padding-top: 25px;
-      height: 100px;
-      flex: 40%;
-      background-color: $yellow;
-      justify-content: center;
-    }
-  }
-}
 }

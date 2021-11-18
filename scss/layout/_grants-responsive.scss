@@ -1,17 +1,15 @@
 @include media-lg {
   .grants-body {
     position: relative;
-    padding-bottom: 300px; 
+    padding-bottom: 300px;
 
     .grants-main {
-   
       .grants-text-wrapper {
         width: 60%;
         margin: 0 auto;
 
         h1 {
           font-size: 48px;
-
         }
       }
 
@@ -43,8 +41,6 @@
             .applyhere-button {
               @include button(3rem);
               margin-bottom: 0;
-          
-
             }
           }
         }
