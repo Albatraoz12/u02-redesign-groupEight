@@ -11,12 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Jämnställdhet</title>
+    <title>Stipendier & bidrag</title>
   </head>
-  <body class="equality-body">
+  <body class="grants-body">
     <header>
       <div class="header-left">
-        <a href=""
+        <a href="../../index.html"
           ><img
             class="desktop-logo"
             src="./images/logo-desktop.png"
@@ -34,102 +34,54 @@
           src="./images/uk.png"
           alt="uk flag"
         />
-        <input class="desktop-header-input" type="text" />
+        <input class="desktop-header-input" type="text" aria-label="Sök på webbsidan"/>
         <a href="#"
-          ><img class="search" src="./images/search.png" alt=""
+          ><img class="search" src="./images/search.png" alt="ikon av en förstoringsglas"
         /></a>
       </div>
     </header>
 
     <nav class="nav">
-      <a href=""
-        ><img class="logo" src="./images/logo.png" alt=""
+      <a href="../../index.html"
+        ><img class="logo" src="./images/logo.png" alt="Konstnärsnänden logotyp"
       /></a>
 
-      <!--MOBILE MENU -->
+      <!--MOBILE MENU-->
       <div class="hamburger">
-        <input class="hamburger__checkbox" type="checkbox" />
+        <input class="hamburger__checkbox" type="checkbox" aria-label="Hamburgarmeny"/>
         <span class="hamburger__lines"></span>
         <ul class="menu">
           <li class="menu__item">
-            <input class="menu-item__input" type="text" /><a
+            <input class="menu-item__input" type="text" aria-label="Sök på webbplatsen"/><a
               class="menu-item__button"
               href="#"
-              ><img class="search" src="./images/search.png" alt=""
+              ><img class="search" src="./images/search.png" alt="Ikon av ett förstoringsglas"
             /></a>
           </li>
           <li class="menu__item">
-            Om oss <input class="menu-item__input1" type="checkbox" />
-            <span class="menu-item__arrow"></span>
-
-            <ul id="om-oss" class="sub-menu">
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Tillbaka</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Budgetunderlag</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Förordningar</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Organisation</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Verksamhet</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Regeringsbrev</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Personal</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Internationellt</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Remissvar</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Styrelse & grupper</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Jämställdhet</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Redovisningar</a>
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#"
-                  >Tillgänglighetsredogörelse</a
-                >
-              </li>
-              <li class="sub-menu-item">
-                <a class="sub-menu-item__link" href="#">Lediga tjänster</a>
-              </li>
-            </ul>
+            <a href="./om-oss.html">Om oss</a>
           </li>
 
-          <li class="menu__item">Stipendier & bidrag</li>
-          <li class="menu__item">Konstnärsguiden</li>
-          <li class="menu__item">Kalendarium</li>
-          <li class="menu__item">Publikationer</li>
-          <li class="menu__item">Våra samarbeten</li>
-          <li class="menu__item">Nyheter</li>
-          <li class="menu__item">Kontakt</li>
+          <li class="menu__item"><a href="stipendier-och-bidrag.html">Stipendier & bidrag</a></li>
+          <li class="menu__item"><a href="konstnarsguiden.html">Konstnärsguiden</a></li>
+          <li class="menu__item"><a href="kalendarium.html">Kalendarium</a></li>
+          <li class="menu__item"><a href="publikationer.html">Publikationer</a></li>
+          <li class="menu__item"><a href="vara-samarbeten.html">Våra samarbeten</a></li>
+          <li class="menu__item"><a href="nyheter.html">Nyheter</a></li>
+          <li class="menu__item"><a href="kontakt.html">Kontakt</a></li>
           <li class="menu__item">
             <img src="./images/sweden.png" alt="Swedish flag" />
             <img src="./images/uk.png" alt="Brittish flag" />
           </li>
         </ul>
       </div>
-      <!-- MOBILE MENU END -->
+      <!--MOBILE MENU END-->
 
-      <!-- DESKTOP MENU -->
+      <!--DESKTOP MENU-->
       <ul class="menu-desktop">
         <li class="menu-desktop-item">
-          <a href="#"> Om oss </a
-          ><input class="menu-item__input1" type="checkbox" />
+          <a href="om-oss.html"> Om oss </a
+          ><input class="menu-item__input1" type="checkbox" aria-label="Visa undermeny för 'Om oss' i datorläge" />
           <span class="menu-item__arrow"></span>
 
           <ul class="sub-menu-desktop">
@@ -152,7 +104,7 @@
               <a class="sub-menu-desktop-item__link" href="#">Personal</a>
             </li>
             <li class="sub-menu-desktop-item">
-              <a class="sub-menu-desktop-item__link" href="#"
+              <a class="sub-menu-desktop-item__link" href="international.html"
                 >Internationellt</a
               >
             </li>
@@ -165,7 +117,7 @@
               >
             </li>
             <li class="sub-menu-desktop-item">
-              <a class="sub-menu-desktop-item__link" href="#">Jämställdhet</a>
+              <a class="sub-menu-desktop-item__link" href="equality.html">Jämställdhet</a>
             </li>
             <li class="sub-menu-desktop-item">
               <a class="sub-menu-desktop-item__link" href="#">Redovisningar</a>
@@ -184,8 +136,9 @@
         </li>
 
         <li class="menu-desktop-item">
-          <a href="">Stipendier & bidrag</a>
-          <input class="menu-item__input2" type="checkbox" />
+          <a href="stipendier-och-bidrag.html">Stipendier & bidrag</a>
+          <input class="menu-item__input2" type="checkbox" aria-label="Visa undermeny för 'Stipendier & bidrag' i datorläge" />
+          <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop2">
             <li class="sub-menu-desktop2-item">
               <a class="sub-menu-desktop2-item__link" href="#">Bild & form</a>
@@ -246,8 +199,9 @@
           </ul>
         </li>
         <li class="menu-desktop-item">
-          <a href="">Konstnärsguiden</a>
-          <input class="menu-item__input3" type="checkbox" />
+          <a href="konstnarsguiden.html">Konstnärsguiden</a>
+          <input class="menu-item__input3" type="checkbox" aria-label="Visa undermeny för 'Konstnärsguiden' i datorläge" />
+          <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop3">
             <li class="sub-menu-desktop3-item">
               <a class="sub-menu-desktop3-item__link" href="#"
@@ -283,8 +237,9 @@
           </ul>
         </li>
         <li class="menu-desktop-item">
-          <a href="">Kalendarium</a>
-          <input class="menu-item__input4" type="checkbox" />
+          <a href="kalendarium.html">Kalendarium</a>
+          <input class="menu-item__input4" type="checkbox" aria-label="Visa undermeny för 'Kalendarium' i datorläge" />
+          <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop4">
             <li class="sub-menu-desktop4-item">
               <a class="sub-menu-desktop4-item__link" href="#"
@@ -304,8 +259,9 @@
           </ul>
         </li>
         <li class="menu-desktop-item">
-          <a href="">Pubilkationer</a>
-          <input class="menu-item__input5" type="checkbox" />
+          <a href="publikationer.html">Publikationer</a>
+          <input class="menu-item__input5" type="checkbox" aria-label="Visa undermeny för 'Publikationer' i datorläge" />
+          <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop5">
             <li class="sub-menu-desktop5-item">
               <a class="sub-menu-desktop5-item__link" href="#"
@@ -315,11 +271,12 @@
           </ul>
         </li>
         <li class="menu-desktop-item">
-          <a href="">Våra samarbeten</a>
-          <input class="menu-item__input6" type="checkbox" />
+          <a href="vara-samarbeten.html">Våra samarbeten</a>
+          <input class="menu-item__input6" type="checkbox" aria-label="Visa undermeny för 'Våra samarbeten' i datorläge" />
+          <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop6">
             <li class="sub-menu-desktop6-item">
-              <a class="sub-menu-desktop6-item__link" href="#"
+              <a class="sub-menu-desktop6-item__link" href="konstnarsguiden.html"
                 >Konstnärsguiden</a
               >
             </li>
@@ -357,8 +314,9 @@
           </ul>
         </li>
         <li class="menu-desktop-item">
-          <a href="">Nyheter</a>
-          <input class="menu-item__input7" type="checkbox" />
+          <a href="nyheter.html">Nyheter</a>
+          <input class="menu-item__input7" type="checkbox" aria-label="Visa undermeny för 'Nyheter' i datorläge" />
+          <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop7">
             <li class="sub-menu-desktop7-item">
               <a class="sub-menu-desktop7-item__link" href="#"
@@ -378,110 +336,169 @@
             </li>
           </ul>
         </li>
-        <li class="menu-desktop-item"><a href="#">Kontakt</a></li>
+        <li class="menu-desktop-item"><a href="kontakt.html">Kontakt</a></li>
       </ul>
-      <!-- DESKTOP MENU END -->
-      <ul class="sub-menu">
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Tillbaka</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Budgetunderlag</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Förordningar</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Organisation</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Verksamhet</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Regeringsbrev</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Personal</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Internationellt</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Remissvar</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Styrelse & grupper</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Jämställdhet</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Redovisningar</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Tillgänglighetsredogörelse</a>
-        </li>
-        <li class="sub-menu-item">
-          <a class="sub-menu-item__link" href="#">Lediga tjänster</a>
-        </li>
-      </ul>
+      <!--DESKTOP MENU END-->
     </nav>
 
-    <main class="equality-main">
-      <div class="equality-wrapper">
+    <main class="grants-main">
+      <div class="grants-text-wrapper">
+        <p class="grants-breadcrumb">
+          <a href="/index.html" title="Goes to Home">Startsida </a> &gt;
+          Stipendier & bidrag
+        </p>
 
-          <p class="equality-breadcrumb"><a href="/index.html">Startsida</a> > Jämnställdhet</p>
-          
-          <h1>Jämnställdhet</h1>
+        <h1>Stipendier och bidrag</h1>
 
-          <h2>En av 18 pilotmyndigheter</h2>
+        <p>
+          Konstnärsnämnden fördelar ett brett spektrum av stipendier och bidrag
+          till yrkesverksamma konstnärer inom bild, form, musik, teater, dans
+          och film. Stödet riktar sig främst till dig som är enskild frilansande
+          konstnär, bosatt i Sverige och/eller med din konstnärliga verksamhet
+          här. Under 2019 beslutade Konstnärsnämnden om stipendier och bidrag
+          uppgående till 179 miljoner kronor. Kulturbryggans beslut ingår i
+          beloppet. Konstnärsnämnden beslutar årligen om cirka 85 miljoner
+          kronor till konstnärer inom bild och form. Bidragen till konstnärer
+          inom musik uppgår till 31 miljoner kronor per år. Inom dansområdet
+          beviljas 13 miljoner, filmområdet 12 miljoner kronor och teaterområdet
+          10 miljoner. Inom området dans behandlar myndigheten även ansökningar
+          från cirkusartister. Dramatiker får stöd av Sveriges författarfond.
+          Institutioner och fria grupper kan söka bidrag hos Statens Kulturråd.
+        </p>
 
-          <p>Konstnärsnämnden utsågs 2013 som en av 18 pilotmyndigheter att arbeta med jämställdhetsintegrering. 
-          Inför 2014 tog myndigheten fram en handlingsplan för arbetet med jämställdhetsintegrering.</p>
+        <h2>Cirka 1 800 stipendier delas ut per år</h2>
+        <p>
+          Varje år behandlar myndigheten cirka 7 000 ansökningar från verksamma
+          konstnärer. Omkring 1 800 ansökningar beviljas varje år. De sökande
+          tilldelas stipendium eller bidrag i någon form. Grundkriteriet är
+          konstnärlig kvalitet och ekonomiskt behov. Vi strävar även efter
+          mångfald och spridning av genrer, ålder, kön och geografisk
+          fördelning.
+        </p>
 
-          <a class="equality-button1" href="#">Till handlingsplan</a>
+        <h2>Ett allmänt stöd eller stöd för projekt</h2>
 
-      
+        <p>
+          Som yrkesverksam konstnär kan du söka stöd för såväl en kort
+          utlandsresa som ett omfattande konstnärligt projekt. Du kan även söka
+          arbetsstipendium som är ett allmänt stöd för fortsatt konstnärlig
+          verksamhet. För närvarande kan pensionsbidrag inte sökas, men är du
+          pensionär och fortfarande konstnärligt yrkesverksam kan du söka övriga
+          stipendier och bidrag.
+        </p>
 
+        <h2>Sökande som studerar</h2>
 
+        <p>
+          För att få bidrag från Konstnärsnämnden kan den sökande inte vara
+          studerande. Undantag kan göras om mottagaren studerar på halvtid eller
+          mindre, förutsatt att bidraget inte ska användas inom ramen för
+          studierna.
+        </p>
+      </div>
 
-      <section class="equality-mission">
+      <section class="grants-catergories">
+        <div class="grants-box-style">
+          <img
+            class="imgsize"
+            src="./images/grants/bildochform.png"
+            alt="Man som målar krukor"
+          />
+          <div class="grants-content">
+            <p>Bild & form</p>
+            <a href="#" class="applyhere-button">Ansök här</a>
+          </div>
+        </div>
 
-      <h2>Förlängt uppdrag 2016-2018 </h2>
+        <div class="grants-box-style">
+          <img
+            class="imgsize"
+            src="./images/grants/dans.png"
+            alt="Balett dansös"
+          />
+          <div class="grants-content">
+            <p>Dans & Cirkus</p>
+            <a href="#" class="applyhere-button">Ansök här</a>
+          </div>
+        </div>
 
-      <p>Regeringen har gett ett fortsatt uppdrag till Konstnärsnämnden att arbeta med jämställdhetsintegrering inom myndigheten till och att föra vidare erfarenheterna från arbetet till andra myndigheter och organisationer med liknande verksamhet inom kulturområdet. 
-      </p>
+        <div class="grants-box-style">
+          <img
+            class="imgsize"
+            src="./images/grants/film.png"
+            alt="Man med film board"
+          />
+          <div class="grants-content">
+            <p>Film</p>
+            <a href="#" class="applyhere-button">Ansök här</a>
+          </div>
+        </div>
 
-      <p>En skrift om jämställdhetsintegrerad bedömning av ansökningar inom stipendier och bidrag publicerades 2016. 
+        <div class="grants-box-style">
+          <img
+            class="imgsize"
+            src="./images/grants/musik.png"
+            alt="Man som spelar musik"
+          />
+          <div class="grants-content">
+            <p>Musik</p>
+            <a href="#" class="applyhere-button">Ansök här</a>
+          </div>
+        </div>
 
-        Till jämställdhetsintegrerad bedömning av ansökningar om bidrag och stipendier.</p>
-
-        <a class="equality-button1" href="#">Till bedömningar</a>
-
+        <div class="grants-box-style">
+          <img
+            class="imgsize"
+            src="./images/grants/teater.png"
+            alt="En teater scen"
+          />
+          <div class="grants-content">
+            <p>Teater</p>
+            <a href="#" class="applyhere-button">Ansök här</a>
+          </div>
+        </div>
       </section>
 
+      <section class="info-grants-container">
+        <h2 class="more-info">Övrig information</h2>
 
-      <section class="more-info">
+        <div class="applybox">
+          <p>Ansökan & Blanketter</p>
+        </div>
 
-        <h2>Mer information:</h2>
+        <div class="grantbox">
+          <p>Ansökningstider</p>
+        </div>
 
+        <div class="grantbox">
+          <p>Femåriga arbetsstipendier</p>
+        </div>
 
-        <a href="#" class="links"
-        >Jämställ.nu</a>
+        <div class="grantbox">
+          <p>Utdelade stipendier</p>
+        </div>
 
-        <a href="#" class="links"
-        >Konstnärsnämnden handlingsplan</a>
+        <div class="grantbox">
+          <p>Långtids stipendium</p>
+        </div>
 
+        <div class="grantbox">
+          <p>Redovisning</p>
+        </div>
 
-        <a href="#" class="links"
-        >Nationella sekreteriatet för genusforskning</a>
-      
-    </section>
+        <div class="grantbox">
+          <p>Jäv</p>
+        </div>
 
+        <div class="grantbox">
+          <p>Statlig inkomstgaranti</p>
+        </div>
 
-    </div>
+        <div class="grantbox">
+          <p>Andra bidragsgivare</p>
+        </div>
+      </section>
     </main>
-
 
     <footer>
       <div class="left-right-wrapper">
@@ -509,19 +526,19 @@
       <div class="footer-bottom">
         <div class="social-icons">
           <img
-            src="./images/facebook-icon.png"
+            src="./images/facebook.svg"
             alt="besök konstnarsnamndens facebook"
             class="socialIcon"
           /><img
-            src="./images/youtube-icon.png"
+            src="./images/youtube.svg"
             alt="besök konstnarsnamndens youtube-sida"
             class="socialIcon"
           /><img
-            src="./images/vimeo-icon.png"
+            src="./images/vimeo.svg"
             alt="besök konstnarsnamndens vimeo"
             class="socialIcon"
           /><img
-            src="./images/linkedin-icon.png"
+            src="./images/linkedin.svg"
             alt="besök konstnarsnamndens linkedin"
             class="socialIcon"
           />
