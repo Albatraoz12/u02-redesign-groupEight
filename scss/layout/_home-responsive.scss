@@ -2,32 +2,46 @@
 @include media-lg {
     .home-body{
         position: relative;
-        padding-bottom: 250px;
-
-        .home__main {
-            // width: 100vw;    
-
+        padding-bottom: 237px;
+        .home__main {   
             .main__article{
                 .main__intro__container{
                     height: 60vh;
                     .main__paragraph{
                         font-size: 2rem;
                     }
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("/scss/dist/images/home-statue.jpg");
+                    background-position: center;
+                    background-size: cover;
                 }
             }
             .home__sections__white{
                 width: 60%;
                 margin: 0 auto;
-                max-width: 800px;
+                max-width: 600px;
             }
             .home__sections__darkgreen{
                 margin: 0 auto;
                 .main__kalendarium{
                     width: 60%;
-                    max-width: 800px;
+                    max-width: 600px;
                     margin: 0 auto;
                 }
             }
+            .main__card__container{
+                img{
+                    width: 150px;
+                    height: 150px;   
+                }
+                .main__card__h2{
+                    margin-bottom: 1rem;
+                }
+            }
+            .main__button__card{
+                @include button(3rem);
+                margin-bottom: 0;
+            }
+
         }  
     }
 }

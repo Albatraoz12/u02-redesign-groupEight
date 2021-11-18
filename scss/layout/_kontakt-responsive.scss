@@ -1,12 +1,9 @@
 // Desktop (mobile first)
 @include media-lg {
 
-    .kontakt-body{
-        
+    .kontakt-body{        
         .kontakt__main{      
-
             .breadcrumb{
-
                 margin-bottom: 3rem;
                 font-size: 12px;
                 a {
@@ -17,29 +14,27 @@
                 }
                 @include breadcrumb;
             }
-
-            .kontakt__generalinfo{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: minmax(1%, auto);  
-                grid-template-areas: 
-                    "kontakt__partialinfo     kontakt__iframe";
-
-                .kontakt__partialinfo{
-                    grid-area: kontakt__partialinfo;
+            .main__article{        
+                max-width: 70%;
+                margin: 0 auto;
+                .h1{
+                    @include h1-desktop;
                 }
-                .kontakt__iframe{
-                    grid-area: kontakt__iframe;
-                    width: 90%;
-                    height: 100%;
-
+                .kontakt__generalinfo{
+                    flex-direction: row;
+                    gap: 10rem;  
+                    justify-content: flex-start;
+                    .kontakt__iframe{
+                        width: 800px; 
+                        height: 400px;
+                    }                        
+                }    
+            }  
+            .kontakt__hittahit{
+                .h2{
+                    @include h2-desktop;
                 }
-            }
-
-            .button{
-                // color:#000000;
-            }
-            
+            }      
         }
     }
 }

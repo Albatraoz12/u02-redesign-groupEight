@@ -8,7 +8,6 @@
     .equality-wrapper {
       p {
         @include paragraf;
-        // padding-bottom: 20px;
       }
 
       .equality-breadcrumb {
@@ -31,29 +30,22 @@
 
     .equality-button1 {
       @include button(1rem);
-     /*  display: flex;
-      justify-content: center;
-      padding-right: 20px; */
-      // margin: 20px 50px;
+
     }
 
     .more-info {
-        // padding-top: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
 
-        h2 {
-          text-align: left;
-        }
-        
-
-    .links {
-      // padding-top: 30px;
-    
-      text-decoration: none;
-      color: $black;
+      h2 {
+        text-align: left;
+      }
+          
+      .links {    
+        text-decoration: none;
+        color: $black;
+      }
     }
   }
-}
 }
