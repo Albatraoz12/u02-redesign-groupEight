@@ -12,6 +12,9 @@
 
       .guide-list {
         .list-inner-wrapper {
+            h2 {
+                font-size: 28px;
+            }
           ul {
             width: 60%;
           }
@@ -19,6 +22,9 @@
       }
       .guide-article  {
           width: 60%;
+          h2 {
+            font-size: 28px;
+        }
       }
     }
   }
