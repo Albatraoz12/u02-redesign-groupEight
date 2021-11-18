@@ -2,10 +2,14 @@
   .grants-body {
     position: relative;
     padding-bottom: 300px;
+
     .grants-main {
       .grants-text-wrapper {
+        width: 60%;
+        margin: 0 auto;
+
         h1 {
-          @include h1-desktop;
+          font-size: 48px;
         }
       }
 
