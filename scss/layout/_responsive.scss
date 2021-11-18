@@ -44,6 +44,7 @@
                 }
                 .menu-item__input1:checked ~ .sub-menu-desktop {
                     @include checked-menu-item-desktop;
+                    // z-index: 1;
                     // padding: 1rem;
                     // position: absolute;
                     // box-sizing: border-box;
