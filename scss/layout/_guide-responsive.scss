@@ -1,6 +1,25 @@
 @include media-lg {
-    .guide-body {
+  .guide-body {
+    .guide-main {
+      width: 100%;
+
+      .guide-heading-section {
         width: 60%;
-        margin: 0 auto;
+        h1 {
+            font-size: 48px;
+        }
+      }
+
+      .guide-list {
+        .list-inner-wrapper {
+          ul {
+            width: 60%;
+          }
+        }
+      }
+      .guide-article  {
+          width: 60%;
+      }
     }
- }
+  }
+}
