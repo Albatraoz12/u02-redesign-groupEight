@@ -38,7 +38,7 @@
 
         
         .button {
-            @include button(5rem);
+            @include button(4rem);
         }
         
         .uppdrag-container {
@@ -66,6 +66,7 @@
                 p {
                     color: $white;
                     z-index: 2;
+                    padding: 0;
                 }
 
 
@@ -94,7 +95,9 @@
             }
             .image-4{
                 background-image: url('../images/economics/trygghet.jpg');
-
+                p{
+                    line-height: 27px;
+                }
             }
         }
 
