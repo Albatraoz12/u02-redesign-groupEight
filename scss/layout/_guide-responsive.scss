@@ -1,29 +1,31 @@
 @include media-lg {
-  .guide-body {
-    .guide-main {
-      width: 100%;
+  html {
+    .guide-body {
+      .guide-main {
+        width: 100%;
 
-      .guide-heading-section {
-        width: 60%;
-        h1 {
+        .guide-heading-section {
+          width: 60%;
+          h1 {
             font-size: 48px;
-        }
-      }
-
-      .guide-list {
-        .list-inner-wrapper {
-            h2 {
-                font-size: 28px;
-            }
-          ul {
-            width: 60%;
           }
         }
-      }
-      .guide-article  {
+
+        .guide-list {
+          .list-inner-wrapper {
+            h2 {
+              font-size: 28px;
+            }
+            ul {
+              width: 60%;
+            }
+          }
+        }
+        .guide-article {
           width: 60%;
           h2 {
             font-size: 28px;
+          }
         }
       }
     }

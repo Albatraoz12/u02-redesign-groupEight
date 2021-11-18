@@ -1,71 +1,75 @@
-.guide-body {
-  position: relative;
-  padding-bottom: 300px;
+html {
+  scroll-behavior: smooth;
 
-  .guide-main {
-    @include paragraf;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 2rem;
+  .guide-body {
+    position: relative;
+    padding-bottom: 300px;
 
-    .guide-heading-section {
-      width: 90%;
+    .guide-main {
+      @include paragraf;
+      width: 100%;
       margin: 0 auto;
-      p {
-        padding-bottom: 2rem;
+      padding-top: 2rem;
+
+      .guide-heading-section {
+        width: 90%;
+        margin: 0 auto;
+        p {
+          padding-bottom: 2rem;
+        }
       }
-    }
-    .guide-article {
-      width: 90%;
-      margin: 0 auto;
-      overflow-wrap: break-word;
+      .guide-article {
+        width: 90%;
+        margin: 0 auto;
+        overflow-wrap: break-word;
         #nytta {
-            padding-top: 3rem;
+          padding-top: 3rem;
         }
 
-      a {
-        color: $black;
-      }
+        a {
+          color: $black;
+        }
 
-      p {
+        p {
           margin-top: 2rem;
           margin-bottom: 2rem;
+        }
+
+        h2 {
+          @include h2-mobile;
+        }
       }
 
-      h2 {
-        @include h2-mobile;
-      }
-    }
-
-    .guide-breadcrumb {
-      @include breadcrumb;
-    }
-
-    h1 {
-      @include h1-mobile;
-    }
-
-    .guide-list {
-      background-color: $lightGreen;
-      padding: 1rem;
-      a {
-        color: $black;
+      .guide-breadcrumb {
+        @include breadcrumb;
       }
 
-      h2 {
-        @include h2-mobile;
+      h1 {
+        @include h1-mobile;
       }
 
-      h3 {
-        font-size: 1.2rem;
-        font-weight: 500;
-        padding-bottom: 1.2rem;
-      }
+      .guide-list {
+        background-color: $lightGreen;
+        padding: 1rem;
+        a {
+          color: $black;
+        }
 
-      .list-inner-wrapper {
-        ul {
-          width: 90%;
-          margin: 0 auto;
+        h2 {
+          @include h2-mobile;
+        }
+
+        h3 {
+          font-size: 1.2rem;
+          font-weight: 500;
+          padding-bottom: 1.2rem;
+        }
+
+        .list-inner-wrapper {
+          ul {
+            width: 90%;
+            margin: 0 auto;
+          }
         }
       }
     }
