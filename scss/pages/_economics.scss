@@ -13,22 +13,7 @@
         padding: 20px 40px;
 
         .economics-breadcrumbs{
-
             @include breadcrumb;
-            
-
-            /* font-weight: 600;
-            font-size: 12px;
-
-            & > *{
-                text-decoration: none;
-                color: $black;
-                
-            }
-
-            & a:hover {
-                color: $yellow;
-            } */
         }
 
         h1, h2 {
@@ -42,8 +27,6 @@
 
         p {
             @include paragraf;
-           /*  margin: 20px 0px;
-            font-size: 18px; */
         }
 
         .economics-text-wrapper {
@@ -55,15 +38,7 @@
 
         
         .button {
-            // color: yellow;
             @include button(5rem);
-            /*text-align: center;
-            border-radius: 15px;
-            display: block;
-            width: 300px;
-            margin: 50px auto;
-            */
-
         }
         
         .uppdrag-container {
