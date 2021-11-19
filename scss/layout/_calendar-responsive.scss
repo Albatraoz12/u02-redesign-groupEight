@@ -7,6 +7,8 @@
     .kalendarium-wrapper{
 
     .kalendarium-intro{
+      max-width: 1152px;
+      width: 60%;
       h1{
         @include h1-desktop;
       }
