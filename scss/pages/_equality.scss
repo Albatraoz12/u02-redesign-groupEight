@@ -12,6 +12,7 @@
 
       .equality-breadcrumb {
         @include breadcrumb;
+        display: block;
       }
 
       h1 {

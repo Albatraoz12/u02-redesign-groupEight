@@ -30,7 +30,7 @@
 
     .about-breadcrumb {
       @include breadcrumb;
-      margin-bottom: 80px;
+      display: block;
     }
 
     .about-icon-wrapper {

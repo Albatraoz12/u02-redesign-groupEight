@@ -10,6 +10,7 @@
 
     .international-breadcrumbs {
       @include breadcrumb;
+      display: block;
     }
 
     .button {

@@ -19,17 +19,9 @@
         }     
         a {
             color: $black;
-            &:hover {
-                color: $yellow;
-            }
         }        
         .button {
-            // color: yellow;
-            @include button(2rem);           
-            &:hover {
-                color: $darkGreen;
-                background-color: bisque;
-            }
+            @include button(2rem);
         }
         .government-text-wrapper {
             display: flex;
@@ -40,9 +32,7 @@
             .government-breadcrumbs{
                 @include breadcrumb;
                 align-self: flex-start;
-                & a:hover {
-                    color: $yellow;
-                }
+                display: block;
             }                
             h1, h2 {
                 margin: 20px 0;

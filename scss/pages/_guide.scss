@@ -42,6 +42,7 @@ html {
 
       .guide-breadcrumb {
         @include breadcrumb;
+        display: block;
       }
 
       h1 {

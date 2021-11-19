@@ -1,6 +1,7 @@
 @include media-lg {
 
     .government-body {
+        height: 100vh;
         .government-main{
             .government-wrapper {
                 .government-text-wrapper {
@@ -11,12 +12,8 @@
                 }
                 .button{
                     @include button(6rem);
-                    &:hover {
-                        color: $darkGreen;
-                        background-color: bisque;
                     }
                 }     
             }
         }
     }
-}
