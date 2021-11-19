@@ -40,33 +40,35 @@
         }      
       }
 
-    .nyheter-kort{
-      background-color: $lightGreen;
-      border-radius: 10px;
-      height: 160px;
-      width: 90%;
-      margin: 2rem auto;
+      .nyheter-kort{
+        background-color: $lightGreen;
+        border-radius: 10px;
+        height: 160px;
+        width: 90%;
+        margin: 2rem auto;
 
-        .kort-heading{
-          display: inline-block;
-          margin: 10px;
-          height: 30px;
-          font-size: 15px;
-          font-weight: bold;
-        }
-        .kort-bekrivning{
-          display: inline-block;
-          margin: 10px;
-          font-size: 13.5px;
-        }
-        
-        a{
-          text-decoration: none;
-          color: $black;
-        }
+          .kort-heading{
+            display: inline-block;
+            margin: 10px;
+            height: 30px;
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .kort-bekrivning{
+            display: inline-block;
+            margin: 10px;
+            font-size: 13.5px;
+          }
+          
+          a{
+            text-decoration: none;
+            color: $black;
+            height: 100%;
+            width: 100%;
+          }
+      }
+      .nyher-carusel-scroll{
+        font-size: 30px;
+      }
     }
-    .nyher-carusel-scroll{
-      font-size: 30px;
-    }
-  }
 }
