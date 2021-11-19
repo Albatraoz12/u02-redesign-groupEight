@@ -6,6 +6,7 @@
     .nyheter-wrapper{
       .nyheter-wrapper-intro{
         width: 60%;
+        max-width: 1152px;
 
         h1{
         @include h1-desktop;
@@ -22,6 +23,7 @@
           flex-direction: row;
           flex-wrap: wrap;
           width: 60%;
+          max-width: 1152px;
           gap: 30px;
         
             .nyheter-kort{
