@@ -22,13 +22,6 @@
       }
     }
 
-    .divider {
-      height: 60px;
-      width: 100%;
-      margin: 20px 0;
-      background-color: $darkGreen;
-    }
-
     .grants-catergories {
       display: flex;
       flex-direction: column;
@@ -80,6 +73,9 @@
         flex-basis: 100%;
         background-color: $yellow;
         justify-content: center;
+        text-decoration: none;
+        color: $black;
+        
       }
       .grantbox {
         display: flex;
@@ -89,6 +85,8 @@
         flex: 40%;
         background-color: $yellow;
         justify-content: center;
+        text-decoration: none;
+        color: $black;
       }
     }
   }
