@@ -41,6 +41,14 @@
                     opacity: 0;
                     height: 15px;
                     width: 15px;
+
+                    &:focus ~ .menu-item__arrow{
+                        background-color: $yellow;
+
+                        &::after {
+                            background-color: $yellow;
+                        }
+                    }
                 }
 
                 .menu-item__arrow {
