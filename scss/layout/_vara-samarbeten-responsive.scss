@@ -1,43 +1,24 @@
-
-@include media-lg{
-
+@include media-lg {
   .samarbeten-body {
     position: relative;
-    padding-bottom:300px;
-    
-  
-    .samarbeten-wrapper{
+    padding-bottom: 300px;
+
+    .samarbeten-wrapper {
+      width: 40%;
       gap: 30px;
-      margin: 0 auto;
-      
-      .samarbeten-intro{
-        width: 60%;
-      .samarbeten-heading{
+
+      .samarbeten-heading {
         @include h1-desktop;
       }
-    }
-    
-    .figure-wrapper{
-      .coop-image{
 
-        width: 550px;
-      }
-      .coop-image-stora{
-
-        width: 550px;
-      }
-    }
-     
-    }
-  }
-  
-  }
-  
-  @include media-xl {
-    .samarbeten-body {
-      
-        .samarbeten-wrapper{
-          height: 100vh;
+      .figure-wrapper {
+        .coop-image {
+          width: 550px;
         }
+        .coop-image-stora {
+          width: 550px;
+        }
+      }
     }
   }
+}
