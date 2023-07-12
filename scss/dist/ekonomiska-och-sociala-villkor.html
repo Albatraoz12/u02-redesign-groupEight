@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="/scss/main.css" />
     <!-- Goolge Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
@@ -29,49 +29,76 @@
           src="./images/sweden.png"
           alt="Swedish flag"
         />
-        <img
-          class="header-desktop-flags"
-          src="./images/uk.png"
-          alt="uk flag"
+        <img class="header-desktop-flags" src="./images/uk.png" alt="uk flag" />
+        <input
+          class="desktop-header-input"
+          type="text"
+          aria-label="Sök på webbsidan"
         />
-        <input class="desktop-header-input" type="text" aria-label="Sök på webbsidan"/>
         <a href="#"
-          ><img class="search" src="./images/search.png" alt="ikon av en förstoringsglas"
+          ><img
+            class="search"
+            src="./images/search.png"
+            alt="ikon av en förstoringsglas"
         /></a>
       </div>
     </header>
 
     <nav class="nav">
       <a href="../../index.html"
-        ><img class="logo" src="./images/logo.png" alt="Konstnärsnänden logotyp"
+        ><img
+          class="logo"
+          src="./images/logo.png"
+          alt="Konstnärsnänden logotyp"
       /></a>
 
       <!--MOBILE MENU-->
       <div class="hamburger">
-        <input class="hamburger__checkbox" type="checkbox" aria-label="Hamburgarmeny"/>
+        <input
+          class="hamburger__checkbox"
+          type="checkbox"
+          aria-label="Hamburgarmeny"
+        />
         <span class="hamburger__lines"></span>
         <ul class="menu">
           <li class="menu__item">
-            <input class="menu-item__input" type="text" aria-label="Sök på webbplatsen"/><a
-              class="menu-item__button"
-              href="#"
-              ><img class="search" src="./images/search.png" alt="Ikon av ett förstoringsglas"
+            <input
+              class="menu-item__input"
+              type="text"
+              aria-label="Sök på webbplatsen"
+            /><a class="menu-item__button" href="#"
+              ><img
+                class="search"
+                src="./images/search.png"
+                alt="Ikon av ett förstoringsglas"
             /></a>
           </li>
           <li class="menu__item">
             <a href="./om-oss.html">Om oss</a>
           </li>
 
-          <li class="menu__item"><a href="stipendier-och-bidrag.html">Stipendier & bidrag</a></li>
-          <li class="menu__item"><a href="konstnarsguiden.html">Konstnärsguiden</a></li>
+          <li class="menu__item">
+            <a href="stipendier-och-bidrag.html">Stipendier & bidrag</a>
+          </li>
+          <li class="menu__item">
+            <a href="konstnarsguiden.html">Konstnärsguiden</a>
+          </li>
           <li class="menu__item"><a href="kalendarium.html">Kalendarium</a></li>
-          <li class="menu__item"><a href="publikationer.html">Publikationer</a></li>
-          <li class="menu__item"><a href="vara-samarbeten.html">Våra samarbeten</a></li>
+          <li class="menu__item">
+            <a href="publikationer.html">Publikationer</a>
+          </li>
+          <li class="menu__item">
+            <a href="vara-samarbeten.html">Våra samarbeten</a>
+          </li>
           <li class="menu__item"><a href="nyheter.html">Nyheter</a></li>
           <li class="menu__item"><a href="kontakt.html">Kontakt</a></li>
           <li class="menu__item">
-            <a href="#" aria-label="Change to english"><img src="./images/sweden.png" alt="Swedish flag" /></a>
-            <a href="#" aria-label="Byt till svenska"><img src="./images/uk.png" alt="Brittish flag" /></a>
+            <a href="#" aria-label="Change to english"
+              ><img src="./images/sweden.png" alt="Swedish flag"
+            /></a>
+            <a href="#" aria-label="Byt till svenska"
+              ><img src="./images/uk.png" alt="Brittish flag"
+            /></a>
           </li>
         </ul>
       </div>
@@ -81,7 +108,11 @@
       <ul class="menu-desktop">
         <li class="menu-desktop-item">
           <a href="om-oss.html"> Om oss </a
-          ><input class="menu-item__input1" type="checkbox" aria-label="Visa undermeny för 'Om oss' i datorläge" />
+          ><input
+            class="menu-item__input1"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Om oss' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
 
           <ul class="sub-menu-desktop">
@@ -117,7 +148,9 @@
               >
             </li>
             <li class="sub-menu-desktop-item">
-              <a class="sub-menu-desktop-item__link" href="equality.html">Jämställdhet</a>
+              <a class="sub-menu-desktop-item__link" href="equality.html"
+                >Jämställdhet</a
+              >
             </li>
             <li class="sub-menu-desktop-item">
               <a class="sub-menu-desktop-item__link" href="#">Redovisningar</a>
@@ -137,7 +170,11 @@
 
         <li class="menu-desktop-item">
           <a href="stipendier-och-bidrag.html">Stipendier & bidrag</a>
-          <input class="menu-item__input2" type="checkbox" aria-label="Visa undermeny för 'Stipendier & bidrag' i datorläge" />
+          <input
+            class="menu-item__input2"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Stipendier & bidrag' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop2">
             <li class="sub-menu-desktop2-item">
@@ -200,7 +237,11 @@
         </li>
         <li class="menu-desktop-item">
           <a href="konstnarsguiden.html">Konstnärsguiden</a>
-          <input class="menu-item__input3" type="checkbox" aria-label="Visa undermeny för 'Konstnärsguiden' i datorläge" />
+          <input
+            class="menu-item__input3"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Konstnärsguiden' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop3">
             <li class="sub-menu-desktop3-item">
@@ -238,7 +279,11 @@
         </li>
         <li class="menu-desktop-item">
           <a href="kalendarium.html">Kalendarium</a>
-          <input class="menu-item__input4" type="checkbox" aria-label="Visa undermeny för 'Kalendarium' i datorläge" />
+          <input
+            class="menu-item__input4"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Kalendarium' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop4">
             <li class="sub-menu-desktop4-item">
@@ -260,7 +305,11 @@
         </li>
         <li class="menu-desktop-item">
           <a href="publikationer.html">Publikationer</a>
-          <input class="menu-item__input5" type="checkbox" aria-label="Visa undermeny för 'Publikationer' i datorläge" />
+          <input
+            class="menu-item__input5"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Publikationer' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop5">
             <li class="sub-menu-desktop5-item">
@@ -272,11 +321,17 @@
         </li>
         <li class="menu-desktop-item">
           <a href="vara-samarbeten.html">Våra samarbeten</a>
-          <input class="menu-item__input6" type="checkbox" aria-label="Visa undermeny för 'Våra samarbeten' i datorläge" />
+          <input
+            class="menu-item__input6"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Våra samarbeten' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop6">
             <li class="sub-menu-desktop6-item">
-              <a class="sub-menu-desktop6-item__link" href="konstnarsguiden.html"
+              <a
+                class="sub-menu-desktop6-item__link"
+                href="konstnarsguiden.html"
                 >Konstnärsguiden</a
               >
             </li>
@@ -315,7 +370,11 @@
         </li>
         <li class="menu-desktop-item">
           <a href="nyheter.html">Nyheter</a>
-          <input class="menu-item__input7" type="checkbox" aria-label="Visa undermeny för 'Nyheter' i datorläge" />
+          <input
+            class="menu-item__input7"
+            type="checkbox"
+            aria-label="Visa undermeny för 'Nyheter' i datorläge"
+          />
           <span class="menu-item__arrow"></span>
           <ul class="sub-menu-desktop7">
             <li class="sub-menu-desktop7-item">
@@ -344,40 +403,78 @@
     <main class="economics-main">
       <div class="economics-wrapper">
         <div class="economics-text-wrapper">
-          <span class="economics-breadcrumbs"><a href="/index.html">Startsida</a> > <a href="om-oss.html">Om oss</a> > Konstnärers villkor</span>
+          <span class="economics-breadcrumbs"
+            ><a href="/index.html">Startsida</a> >
+            <a href="om-oss.html">Om oss</a> > Konstnärers villkor</span
+          >
 
           <h1>Konstnärers villkor</h1>
 
-          <p>Konstnärernas arbetssituation är många gånger speciell. Få konstnärer har fasta anställningar, många är frilansande och har ofta många olika uppdragsgivare. En av Konstnärsnämndens uppgifter är att bevaka och sprida kunskap om konstnärers ekonomiska och sociala situation.
+          <p>
+            Konstnärernas arbetssituation är många gånger speciell. Få
+            konstnärer har fasta anställningar, många är frilansande och har
+            ofta många olika uppdragsgivare. En av Konstnärsnämndens uppgifter
+            är att bevaka och sprida kunskap om konstnärers ekonomiska och
+            sociala situation.
           </p>
 
-          <p>Hur ser konstnärers inkomster ut? Vad innebär förändringar i skatt- och trygghetssystem för konstnärers situation? Våra utredningar och rapporter blir underlag för beslut inom regering och riksdag och kan ge dig som konstnär en tydligare bild av villkoren inom din verksamhet.</p>
-
-          <p>Via vår webbplats konstnärsguiden får du information kring praktiska frågor om företags- och anställningsformer, skatter m.m.
+          <p>
+            Hur ser konstnärers inkomster ut? Vad innebär förändringar i skatt-
+            och trygghetssystem för konstnärers situation? Våra utredningar och
+            rapporter blir underlag för beslut inom regering och riksdag och kan
+            ge dig som konstnär en tydligare bild av villkoren inom din
+            verksamhet.
           </p>
-      </div>
+
+          <p>
+            Via vår webbplats konstnärsguiden får du information kring praktiska
+            frågor om företags- och anställningsformer, skatter m.m.
+          </p>
+        </div>
         <a href="#" class="button">Till Konstnärsguiden</a>
 
         <h2>Vårt uppdrag</h2>
 
         <div class="uppdrag-container">
-          <div class="img-container image-1" role="img" aria-label="congress chamber">
-            <p>Lyfta konstnärspolitiska frågor nationellt och internationellt</p>
+          <div
+            class="img-container image-1"
+            role="img"
+            aria-label="congress chamber"
+          >
+            <p>
+              Lyfta konstnärspolitiska frågor nationellt och internationellt
+            </p>
           </div>
 
-          <div class="img-container image-2" role="img" aria-label="picture of document pappers">
-            <p>Bygga kunskap kring och ge information om skatte- och trygghetssystem till konstnärerna.</p>
+          <div
+            class="img-container image-2"
+            role="img"
+            aria-label="picture of document pappers"
+          >
+            <p>
+              Bygga kunskap kring och ge information om skatte- och
+              trygghetssystem till konstnärerna.
+            </p>
           </div>
 
-          <div class="img-container image-3" role="img" aria-label="two laptops">
-            <p>Genomföra och ta initiativ till studier om konstnärernas villkor.</p>
+          <div
+            class="img-container image-3"
+            role="img"
+            aria-label="two laptops"
+          >
+            <p>
+              Genomföra och ta initiativ till studier om konstnärernas villkor.
+            </p>
           </div>
 
           <div class="img-container image-4" role="img" aria-label="a lifebuoy">
-            <p>Löpande bevaka hur trygghetssystemen utformas och tillämpas i förhållande till konstnärlig verksamhet.</p>
+            <p>
+              Löpande bevaka hur trygghetssystemen utformas och tillämpas i
+              förhållande till konstnärlig verksamhet.
+            </p>
           </div>
+        </div>
       </div>
-    </div>
     </main>
 
     <footer>
